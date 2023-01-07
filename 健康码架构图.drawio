@@ -1,1 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2023-01-07T02:11:38.433Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="NAsTbVCjv4rRy5L174Tf" type="github"><diagram id="kbJYFblvXlRE1bncNW0h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-07T02:12:01.928Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="XoJohzgjRbpoI1qVpUVH" type="github">
+  <diagram id="YwVwVOlxKDmoOgair0U3" name="第 1 页">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--1" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="105" y="66.5" width="393.75" height="446.25" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--2" style="whiteSpace=wrap;html=1;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--1">
+          <mxGeometry width="393.75" height="446.25" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--3" style="group" vertex="1" connectable="0" parent="lmyAQFpCmCU9WZ-9HjJ--1">
+          <mxGeometry x="20.25" y="341.5" width="347.25" height="97.94900351699886" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--4" style="group" vertex="1" connectable="0" parent="lmyAQFpCmCU9WZ-9HjJ--3">
+          <mxGeometry width="347.25" height="97.94900351699886" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--5" style="whiteSpace=wrap;html=1;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--4">
+          <mxGeometry y="2.996629542790174" width="347.25" height="94.95237397420868" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--6" value="基础设施" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--4">
+          <mxGeometry x="294.25" width="52.5" height="26.25" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--7" style="group" vertex="1" connectable="0" parent="lmyAQFpCmCU9WZ-9HjJ--4">
+          <mxGeometry x="32.25" y="20.78385111371631" width="263.5" height="52.40797186400937" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--8" value="redis" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunDatabase" title="云数据库Redis版" parent="lmyAQFpCmCU9WZ-9HjJ--7">
+          <mxGeometry x="73" y="0.3975967174677635" width="48" height="50.22274325908558" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--9" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;shape=mxgraph.aliyun.database.apsaradb_for_redis;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--8">
+          <mxGeometry x="7.200000000000003" y="7.53341148886284" width="33.599999999999994" height="35.155920281359904" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--10" value="postgre" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunDatabase" title="云数据库Postgresql" parent="lmyAQFpCmCU9WZ-9HjJ--7">
+          <mxGeometry x="145.5" width="48" height="50.22274325908558" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--11" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;shape=mxgraph.aliyun.database.hybriddb_for_postgresql;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--10">
+          <mxGeometry x="7.200000000000003" y="7.53341148886284" width="33.599999999999994" height="35.155920281359904" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--12" value="rabbitmq" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunMiddleware" title="消息队列" parent="lmyAQFpCmCU9WZ-9HjJ--7">
+          <mxGeometry x="215.5" y="2.1852286049237932" width="48" height="50.22274325908558" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--13" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;shape=mxgraph.aliyun.middleware.message_queue;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--12">
+          <mxGeometry x="7.200000000000003" y="7.53341148886284" width="33.599999999999994" height="35.155920281359904" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--14" value="nacos" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunNetworking" title="内容分发服务" parent="lmyAQFpCmCU9WZ-9HjJ--4">
+          <mxGeometry x="32.25" y="22.97" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--15" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;shape=mxgraph.aliyun.networking.content_delivery_network;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--14">
+          <mxGeometry x="7.200000000000003" y="7.200000000000003" width="33.599999999999994" height="33.599999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--16" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="142" y="131" width="272" height="209.75" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--17" value="对外api&lt;br&gt;服务" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunElasticComputing" title="云服务器" parent="lmyAQFpCmCU9WZ-9HjJ--16">
+          <mxGeometry x="111" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--18" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;shape=mxgraph.aliyun.elastic_computing.elastic_compute_service;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--17">
+          <mxGeometry x="7.200000000000003" y="7.200000000000003" width="33.599999999999994" height="33.599999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--19" value="控制台" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunElasticComputing" title="云服务器" parent="lmyAQFpCmCU9WZ-9HjJ--16">
+          <mxGeometry x="7.199999999999989" y="154.55" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--20" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;shape=mxgraph.aliyun.elastic_computing.elastic_compute_service;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--19">
+          <mxGeometry x="7.200000000000003" y="7.200000000000003" width="33.599999999999994" height="33.599999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lmyAQFpCmCU9WZ-9HjJ--16" source="lmyAQFpCmCU9WZ-9HjJ--22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110.75" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--22" value="服务网关" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunApplicationService" title="api网关" parent="lmyAQFpCmCU9WZ-9HjJ--16">
+          <mxGeometry y="0.12999999999999545" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--23" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;isFixed=1;shape=mxgraph.aliyun.application_service.api_gateway;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--22">
+          <mxGeometry x="7.200000000000003" y="7.200000000000003" width="33.599999999999994" height="33.599999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--24" value="日志服务" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunAnalysisAndSearch" title="日志服务" parent="lmyAQFpCmCU9WZ-9HjJ--16">
+          <mxGeometry x="168" y="161.75" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--25" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;isFixed=1;shape=mxgraph.aliyun.analysis_and_search.log_service;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--24">
+          <mxGeometry x="7.200000000000003" y="7.200000000000003" width="33.599999999999994" height="33.599999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lmyAQFpCmCU9WZ-9HjJ--16" source="lmyAQFpCmCU9WZ-9HjJ--17" target="lmyAQFpCmCU9WZ-9HjJ--24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189.75" y="157.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lmyAQFpCmCU9WZ-9HjJ--16" source="lmyAQFpCmCU9WZ-9HjJ--28" target="lmyAQFpCmCU9WZ-9HjJ--24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="247.75" y="186" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--28" value="原始&lt;br&gt;api交互服务" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunElasticComputing" title="云服务器" parent="lmyAQFpCmCU9WZ-9HjJ--16">
+          <mxGeometry x="224" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--29" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;shape=mxgraph.aliyun.elastic_computing.elastic_compute_service;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--28">
+          <mxGeometry x="7.200000000000003" y="7.200000000000003" width="33.599999999999994" height="33.599999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lmyAQFpCmCU9WZ-9HjJ--16" source="lmyAQFpCmCU9WZ-9HjJ--17" target="lmyAQFpCmCU9WZ-9HjJ--28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--31" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="545.5" y="132.38" width="48" height="45.75" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--32" value="第三方&lt;br&gt;健康码服务" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;rounded=1;strokeColor=#00c1de;strokeWidth=2;" vertex="1" sbId="aliyun" slib="aliyunNetworking" title="云主机" parent="lmyAQFpCmCU9WZ-9HjJ--31">
+          <mxGeometry width="48" height="45.75" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--33" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;shape=mxgraph.aliyun.networking.cloud_hosting;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--32">
+          <mxGeometry x="7.200000000000003" y="6.8625000000000025" width="33.599999999999994" height="32.02499999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lmyAQFpCmCU9WZ-9HjJ--28" target="lmyAQFpCmCU9WZ-9HjJ--32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lmyAQFpCmCU9WZ-9HjJ--36" target="lmyAQFpCmCU9WZ-9HjJ--22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--36" value="设备" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=draw/img/lib/mscae/Device_Config.svg;" vertex="1" parent="1">
+          <mxGeometry x="39" y="130" width="44" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149" y="310" as="targetPoint" />
+            <mxPoint x="149" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--38" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="33" y="284.75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--39" style="group" vertex="1" connectable="0" parent="lmyAQFpCmCU9WZ-9HjJ--38">
+          <mxGeometry width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--40" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="lmyAQFpCmCU9WZ-9HjJ--39">
+          <mxGeometry width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lmyAQFpCmCU9WZ-9HjJ--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lmyAQFpCmCU9WZ-9HjJ--40" target="lmyAQFpCmCU9WZ-9HjJ--19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="98" y="25.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
