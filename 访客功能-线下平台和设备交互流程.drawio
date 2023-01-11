@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T02:01:58.424Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-f71QtxDMillxdbZIwa2" version="20.8.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-11T02:03:44.035Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="0VhtgbJbnp5CrFoVihok" version="20.8.3" type="github" pages="2">
   <diagram name="访客登记流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -138,7 +138,7 @@
         <mxCell id="v_stgxv-yivk1XXomR10-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NPHjRaSWmTCTjWpGkUt6-14" source="v_stgxv-yivk1XXomR10-1" target="v_stgxv-yivk1XXomR10-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v_stgxv-yivk1XXomR10-1" value="访客到访" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="NPHjRaSWmTCTjWpGkUt6-14">
+        <mxCell id="v_stgxv-yivk1XXomR10-1" value="设备端&lt;br&gt;签到" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="NPHjRaSWmTCTjWpGkUt6-14">
           <mxGeometry x="47" y="50" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v_stgxv-yivk1XXomR10-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NPHjRaSWmTCTjWpGkUt6-14" source="v_stgxv-yivk1XXomR10-3" target="v_stgxv-yivk1XXomR10-6">
@@ -159,7 +159,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="r7l6_IO_xS_I7t2voNJ5-2" value="访客离开" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="NPHjRaSWmTCTjWpGkUt6-14">
+        <mxCell id="r7l6_IO_xS_I7t2voNJ5-2" value="设备端&lt;br&gt;签离" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="NPHjRaSWmTCTjWpGkUt6-14">
           <mxGeometry x="40" y="440" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NPHjRaSWmTCTjWpGkUt6-17" value="线下管理平台" style="swimlane;html=1;startSize=20;" vertex="1" parent="NPHjRaSWmTCTjWpGkUt6-1">
