@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T02:09:20.939Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pCThZ9EdYdq55LxBE8HU" version="20.8.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-11T02:09:59.087Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="sAb8lsIRSH_wMlVnDvbP" version="20.8.3" type="github" pages="2">
   <diagram name="访客登记流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -168,6 +168,12 @@
         <mxCell id="r7l6_IO_xS_I7t2voNJ5-4" value="设备签离&lt;br&gt;逻辑" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="NPHjRaSWmTCTjWpGkUt6-14">
           <mxGeometry x="30" y="540" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="r7l6_IO_xS_I7t2voNJ5-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="NPHjRaSWmTCTjWpGkUt6-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-151" y="770" as="sourcePoint" />
+            <mxPoint x="329" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NPHjRaSWmTCTjWpGkUt6-17" value="线下管理平台" style="swimlane;html=1;startSize=20;" vertex="1" parent="NPHjRaSWmTCTjWpGkUt6-1">
           <mxGeometry x="340" y="20" width="160" height="1090" as="geometry" />
         </mxCell>
@@ -218,6 +224,12 @@
         </mxCell>
         <mxCell id="r7l6_IO_xS_I7t2voNJ5-6" value="接口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NPHjRaSWmTCTjWpGkUt6-1" source="r7l6_IO_xS_I7t2voNJ5-4" target="r7l6_IO_xS_I7t2voNJ5-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r7l6_IO_xS_I7t2voNJ5-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="81" y="483" as="sourcePoint" />
+            <mxPoint x="561" y="483" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
