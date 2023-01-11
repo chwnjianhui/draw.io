@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T03:00:48.297Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="qH-0kC8EMepK4v3LVOCU" version="20.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-11T03:03:22.149Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="aYiWkBIKYvSyXmG6dNqx" version="20.8.3" type="github" pages="3">
   <diagram name="访客登记流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -321,10 +321,10 @@
             <mxPoint x="180" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-22" value="更新访客记录表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-22" value="新增访客记录表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-25" value="&lt;font face=&quot;Verdana&quot;&gt;更新要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.到访状态&lt;br&gt;&lt;/font&gt;2.记录编号" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-25" value="&lt;font face=&quot;Verdana&quot;&gt;字段要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.到访状态-&amp;gt; 0:待签到&lt;br&gt;&lt;/font&gt;2.记录编号" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="10" y="420" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
