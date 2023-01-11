@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T03:17:02.726Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Ep7u3hAI4a6QQQQDQNpD" version="20.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-11T03:17:26.046Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="W5jQGVDjUtsNAW19nbun" version="20.8.3" type="github" pages="3">
   <diagram name="访客登记流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -344,8 +344,8 @@
         <mxCell id="J5C4p3FA8g_natvKvLbQ-1" value="生成设备命令" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J5C4p3FA8g_natvKvLbQ-5" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;管理平台登记&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="630" y="80" width="140" height="40" as="geometry" />
+        <mxCell id="J5C4p3FA8g_natvKvLbQ-5" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;登记方式：管理平台登记&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="630" y="79" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
