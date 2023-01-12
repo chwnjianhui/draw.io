@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T06:02:37.338Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="s2oxKrBg5UOdA0GyX3n0" version="20.8.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-12T06:06:51.161Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="8zJjrEbcigc9MQtSr7-i" version="20.8.3" type="github" pages="5">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1011" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -530,16 +530,19 @@
           <mxGeometry x="5" y="9.199999999999989" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nSJ7ISwWHLBe-OpPk7Zj-3" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="192.25" y="421.5" width="347.25" height="97.94900351699886" as="geometry" />
+          <mxGeometry x="192.25" y="421.5" width="348.25" height="97.94900351699886" as="geometry" />
         </mxCell>
-        <mxCell id="nSJ7ISwWHLBe-OpPk7Zj-5" style="whiteSpace=wrap;html=1;" vertex="1" parent="nSJ7ISwWHLBe-OpPk7Zj-3">
+        <mxCell id="-F_5jk5n_Xyx6PYjIlc3-2" value="" style="group" vertex="1" connectable="0" parent="nSJ7ISwWHLBe-OpPk7Zj-3">
+          <mxGeometry x="1" width="347.25" height="97.94900351699886" as="geometry" />
+        </mxCell>
+        <mxCell id="nSJ7ISwWHLBe-OpPk7Zj-5" style="whiteSpace=wrap;html=1;" vertex="1" parent="-F_5jk5n_Xyx6PYjIlc3-2">
           <mxGeometry y="2.996629542790174" width="347.25" height="94.95237397420868" as="geometry" />
         </mxCell>
-        <mxCell id="nSJ7ISwWHLBe-OpPk7Zj-6" value="基础设施" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="nSJ7ISwWHLBe-OpPk7Zj-3">
-          <mxGeometry x="294.25" width="52.5" height="26.25" as="geometry" />
+        <mxCell id="nSJ7ISwWHLBe-OpPk7Zj-6" value="基础设施" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="-F_5jk5n_Xyx6PYjIlc3-2">
+          <mxGeometry x="293.25" width="52.5" height="26.25" as="geometry" />
         </mxCell>
         <mxCell id="nSJ7ISwWHLBe-OpPk7Zj-7" style="group" vertex="1" connectable="0" parent="nSJ7ISwWHLBe-OpPk7Zj-3">
-          <mxGeometry x="32.25" y="20.78385111371631" width="263.5" height="52.407971864009376" as="geometry" />
+          <mxGeometry x="33.25" y="20.78385111371631" width="263.5" height="52.407971864009376" as="geometry" />
         </mxCell>
         <mxCell id="nSJ7ISwWHLBe-OpPk7Zj-11" style="verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;isFixed=1;shape=mxgraph.aliyun.database.hybriddb_for_postgresql;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="nSJ7ISwWHLBe-OpPk7Zj-7">
           <mxGeometry x="152.7" y="7.53341148886284" width="33.599999999999994" height="35.155920281359904" as="geometry" />
@@ -587,7 +590,7 @@
           <mxGeometry x="39.45" y="30.17000000000003" width="33.599999999999994" height="33.599999999999994" as="geometry" />
         </mxCell>
         <mxCell id="nSJ7ISwWHLBe-OpPk7Zj-61" value="" style="group" vertex="1" connectable="0" parent="nSJ7ISwWHLBe-OpPk7Zj-3">
-          <mxGeometry x="32.25" y="22.97" width="50" height="50" as="geometry" />
+          <mxGeometry x="34.25" y="22.97" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nSJ7ISwWHLBe-OpPk7Zj-98" value="" style="group" vertex="1" connectable="0" parent="nSJ7ISwWHLBe-OpPk7Zj-61">
           <mxGeometry width="50" height="50" as="geometry" />
