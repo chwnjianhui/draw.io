@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T06:10:36.439Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="nOvBx1680KPsZzYlr3MV" version="20.8.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-12T06:20:58.771Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="npseDPN51UFKiRs7k9d_" version="20.8.3" type="github" pages="5">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1011" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -372,18 +372,18 @@
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="670" y="105" as="targetPoint" />
+            <mxPoint x="679" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-5" value="访客登记" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="320" y="35" width="120" height="60" as="geometry" />
+          <mxGeometry x="329" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-10" target="M_IpAKeHnNYmM8sJ73b6-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="175" as="targetPoint" />
+            <mxPoint x="499" y="210" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="500" y="378" />
-              <mxPoint x="500" y="165" />
+              <mxPoint x="509" y="413" />
+              <mxPoint x="509" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -399,22 +399,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-10" value="必填校验，&lt;br&gt;长度校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="340" y="348" width="80" height="60" as="geometry" />
+          <mxGeometry x="349" y="383" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FzZquDVygX89G0tHvm6P-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-11" target="FzZquDVygX89G0tHvm6P-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-11" value="访客信息填写" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="320" y="135" width="120" height="60" as="geometry" />
+          <mxGeometry x="329" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="165" as="targetPoint" />
-            <mxPoint x="420" y="366" as="sourcePoint" />
+            <mxPoint x="439" y="200" as="targetPoint" />
+            <mxPoint x="429" y="401" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="420" y="480" />
-              <mxPoint x="500" y="480" />
-              <mxPoint x="500" y="165" />
+              <mxPoint x="429" y="515" />
+              <mxPoint x="509" y="515" />
+              <mxPoint x="509" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -427,24 +427,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-15" value="对应被访人到访时间区间校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="340" y="449" width="80" height="60" as="geometry" />
+          <mxGeometry x="349" y="484" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-16" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.手机号&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;或身份证号二选其一&lt;br style=&quot;font-size: 14px;&quot;&gt;2.拜访原因&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="10" y="408" width="200" height="40" as="geometry" />
+          <mxGeometry x="19" y="443" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-19" target="M_IpAKeHnNYmM8sJ73b6-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="588" as="targetPoint" />
+            <mxPoint x="189" y="623" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-19" target="M_IpAKeHnNYmM8sJ73b6-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-19" value="新增访客记录表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="320" y="557" width="120" height="60" as="geometry" />
+          <mxGeometry x="329" y="592" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-20" value="&lt;font face=&quot;Verdana&quot;&gt;字段要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.到访状态-&amp;gt; 0:待签到&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;规则毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt; 2:设备端登记" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="10" y="558" width="200" height="110" as="geometry" />
+          <mxGeometry x="19" y="593" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-21" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-22" target="M_IpAKeHnNYmM8sJ73b6-24">
           <mxGeometry relative="1" as="geometry" />
@@ -453,34 +453,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-22" value="访客下发规则解析" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="320" y="662" width="120" height="60" as="geometry" />
+          <mxGeometry x="329" y="697" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-24" target="M_IpAKeHnNYmM8sJ73b6-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-24" value="生成设备命令" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="320" y="776" width="120" height="60" as="geometry" />
+          <mxGeometry x="329" y="811" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-25" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;登记方式：设备端登记&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="630" y="104" width="170" height="40" as="geometry" />
+          <mxGeometry x="639" y="139" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-26" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="40" y="792" width="200" height="110" as="geometry" />
+          <mxGeometry x="49" y="827" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FzZquDVygX89G0tHvm6P-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="M_IpAKeHnNYmM8sJ73b6-1" source="FzZquDVygX89G0tHvm6P-0" target="M_IpAKeHnNYmM8sJ73b6-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FzZquDVygX89G0tHvm6P-0" value="设备对接&lt;br&gt;接口调用" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="329" y="275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FM7cWACmh9L-z3Q_o6e_-0" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客规则表，筛选出需要下发的设备列表&lt;br&gt;2.记录来源是设备端登记，下发列表需剔除上传的那台设备&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
-          <mxGeometry x="560" y="700" width="200" height="40" as="geometry" />
+          <mxGeometry x="569" y="735" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="214zUIO0lpM_G0BXpYAo" name="整体架构图">
-    <mxGraphModel dx="1011" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
