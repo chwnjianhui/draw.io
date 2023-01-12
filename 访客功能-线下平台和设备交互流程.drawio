@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T02:33:48.424Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="NAfMRmQOlTeuvNHOsp7c" version="20.8.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-12T05:32:52.188Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="rOtBY1RViz_hPbIUR_D8" version="20.8.3" type="github" pages="5">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1011" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -338,6 +338,9 @@
         <mxCell id="J5C4p3FA8g_natvKvLbQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-26" target="J5C4p3FA8g_natvKvLbQ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JNcjmXi-jqfRWwexeuY7-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-26" target="JNcjmXi-jqfRWwexeuY7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HPnDQvklnpv9tH-5DLQT-26" value="访客下发规则解析" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="550" width="120" height="60" as="geometry" />
         </mxCell>
@@ -353,11 +356,14 @@
         <mxCell id="VZUX2Y9e9vC_aqdc_6QJ-1" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="680" width="200" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="JNcjmXi-jqfRWwexeuY7-1" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客规则表，筛选出需要下发的设备列表&lt;br&gt;2.记录来源是设备端登记，下发列表需剔除上传的那台设备&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="540" y="600" width="200" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="访客登记细化-设备端登记" id="1r44WjgmV7XmMkoJbakX">
-    <mxGraphModel dx="1011" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-0" />
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-1" parent="M_IpAKeHnNYmM8sJ73b6-0" />
