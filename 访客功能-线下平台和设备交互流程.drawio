@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T09:56:59.846Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Ln1Z30aEDJDmk-L1OHIr" version="20.8.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-28T09:57:25.382Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="S5oW4VYi-r_Gje-6Na6F" version="20.8.3" type="github" pages="8">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1011" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -554,7 +554,7 @@
             <mxPoint x="380" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1hNUNycuihJS1YNrwq8L-0" value="定期任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#007FFF;" vertex="1" connectable="0" parent="BLZvggfuFe3nlRrdBsdE-2">
+        <mxCell id="1hNUNycuihJS1YNrwq8L-0" value="定时任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000A14;" vertex="1" connectable="0" parent="BLZvggfuFe3nlRrdBsdE-2">
           <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
