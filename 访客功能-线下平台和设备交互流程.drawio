@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T08:54:42.534Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SDdQpKig6lKfb3_kzmHM" version="20.8.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-01-28T09:56:59.846Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Ln1Z30aEDJDmk-L1OHIr" version="20.8.3" type="github" pages="8">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1011" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -544,6 +544,54 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="访客签离细化-自动签离" id="stmCoH1ryweI3Sxo6oqc">
+    <mxGraphModel dx="1011" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="BLZvggfuFe3nlRrdBsdE-0" />
+        <mxCell id="BLZvggfuFe3nlRrdBsdE-1" parent="BLZvggfuFe3nlRrdBsdE-0" />
+        <mxCell id="BLZvggfuFe3nlRrdBsdE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=0" edge="1" parent="BLZvggfuFe3nlRrdBsdE-1" source="BLZvggfuFe3nlRrdBsdE-3" target="BLZvggfuFe3nlRrdBsdE-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hNUNycuihJS1YNrwq8L-0" value="定期任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#007FFF;" vertex="1" connectable="0" parent="BLZvggfuFe3nlRrdBsdE-2">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BLZvggfuFe3nlRrdBsdE-3" value="自动签离" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="BLZvggfuFe3nlRrdBsdE-1">
+          <mxGeometry x="320" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BLZvggfuFe3nlRrdBsdE-5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="BLZvggfuFe3nlRrdBsdE-1" source="BLZvggfuFe3nlRrdBsdE-6" target="BLZvggfuFe3nlRrdBsdE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BLZvggfuFe3nlRrdBsdE-6" value="自动签离&lt;br&gt;和过期判断" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="BLZvggfuFe3nlRrdBsdE-1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BLZvggfuFe3nlRrdBsdE-10" value="更新&lt;br&gt;访客记录状态" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="BLZvggfuFe3nlRrdBsdE-1">
+          <mxGeometry x="320" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BLZvggfuFe3nlRrdBsdE-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="BLZvggfuFe3nlRrdBsdE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="240" as="sourcePoint" />
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BLZvggfuFe3nlRrdBsdE-16" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;每晚23点59分运行定时任务&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="BLZvggfuFe3nlRrdBsdE-1">
+          <mxGeometry x="530" y="280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1hNUNycuihJS1YNrwq8L-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="BLZvggfuFe3nlRrdBsdE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="360" as="sourcePoint" />
+            <mxPoint x="540" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hNUNycuihJS1YNrwq8L-2" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;更新访客记录表状态，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.未签到，超出访问时间 》 已过期&lt;br&gt;2.已签到，超出访问时间 》 已签离&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="BLZvggfuFe3nlRrdBsdE-1">
+          <mxGeometry x="530" y="400" width="230" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="-ZUj845LE4PD74T6zD7Q" name="设备数据同步接口细化">
     <mxGraphModel dx="1011" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -557,7 +605,7 @@
         <mxCell id="qK9r9svDEzdDo4kD_vWV-2" value="设备离线&lt;br&gt;访客登记数据同步" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="359" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qK9r9svDEzdDo4kD_vWV-16" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;说明：同步是在设备离线场景完成登记，最终把访客记录最终结果的以接口形式传输到管理平台&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#007FFF;" vertex="1" parent="1">
+        <mxCell id="qK9r9svDEzdDo4kD_vWV-16" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;说明：同步是在设备离线场景完成登记，把访客记录最终结果的以接口形式传输到管理平台&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#007FFF;" vertex="1" parent="1">
           <mxGeometry x="30" y="50" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BrB2NXOg-3dnA-ZDNWNH-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BrB2NXOg-3dnA-ZDNWNH-3" target="BrB2NXOg-3dnA-ZDNWNH-4">
