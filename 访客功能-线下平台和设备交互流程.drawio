@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T06:32:09.071Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="DkyrP-eUKTPts7O9pv04" version="20.8.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-01-30T06:34:31.309Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Q8QK8vvBThsFlmB0Bpt-" version="20.8.3" type="github" pages="11">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -363,7 +363,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="访客登记细化-设备端登记" id="1r44WjgmV7XmMkoJbakX">
-    <mxGraphModel dx="1049" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-0" />
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-1" parent="M_IpAKeHnNYmM8sJ73b6-0" />
@@ -658,7 +658,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-ZUj845LE4PD74T6zD7Q" name="设备离线登记接口细化">
-    <mxGraphModel dx="1049" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -681,10 +681,10 @@
         <mxCell id="BrB2NXOg-3dnA-ZDNWNH-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="BrB2NXOg-3dnA-ZDNWNH-3" target="BrB2NXOg-3dnA-ZDNWNH-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BrB2NXOg-3dnA-ZDNWNH-3" value="新增访客记录表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="BrB2NXOg-3dnA-ZDNWNH-3" value="访客离线登记&lt;br&gt;后台逻辑" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="359" y="255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BrB2NXOg-3dnA-ZDNWNH-4" value="&lt;span style=&quot;text-align: center;&quot;&gt;一.此处与访客登记接口区别是&lt;br&gt;不需要再次进行校验。&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;二.字段要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.到访状态-&amp;gt; 0:待签到&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="BrB2NXOg-3dnA-ZDNWNH-4" value="&lt;span style=&quot;text-align: center;&quot;&gt;一.此处与访客登记接口区别是&lt;br&gt;不需要再次进行校验。&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;二.字段要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.到访状态-&amp;gt; 0:待签到&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt; 2:设备端登记&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;4.如有登记照片，需要同步更新访客图片表biz_visitor_image表，通过访客记录表的visitor_image_id逻辑关联，image_type为0登记照片" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="49" y="265" width="200" height="115" as="geometry" />
         </mxCell>
         <mxCell id="BrB2NXOg-3dnA-ZDNWNH-5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="BrB2NXOg-3dnA-ZDNWNH-7" target="BrB2NXOg-3dnA-ZDNWNH-9" edge="1">
