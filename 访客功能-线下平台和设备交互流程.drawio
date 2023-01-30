@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T01:16:15.535Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ysgwaszCjSe1gDpYQmUg" version="20.8.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-01-30T01:17:42.811Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ebdi8cRqWk6VXKpfE8Ai" version="20.8.3" type="github" pages="11">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -250,27 +250,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lNtZs3D9O1DbTZZ7Itks" name="访客登记细化-管理平台登记">
-    <mxGraphModel dx="1011" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-3" target="HPnDQvklnpv9tH-5DLQT-1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HPnDQvklnpv9tH-5DLQT-3" target="HPnDQvklnpv9tH-5DLQT-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="185" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="IjSHWrW8awjyte6weKLG-1" target="HPnDQvklnpv9tH-5DLQT-3">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="IjSHWrW8awjyte6weKLG-1" target="HPnDQvklnpv9tH-5DLQT-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J5C4p3FA8g_natvKvLbQ-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="IjSHWrW8awjyte6weKLG-1">
+        <mxCell id="J5C4p3FA8g_natvKvLbQ-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="IjSHWrW8awjyte6weKLG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="670" y="105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjSHWrW8awjyte6weKLG-1" value="访客登记" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="IjSHWrW8awjyte6weKLG-1" value="访客登记" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="320" y="35" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-1" target="HPnDQvklnpv9tH-5DLQT-3">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="HPnDQvklnpv9tH-5DLQT-1" target="HPnDQvklnpv9tH-5DLQT-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="175" as="targetPoint" />
             <Array as="points">
@@ -279,24 +279,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-7" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="HPnDQvklnpv9tH-5DLQT-6">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-7" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="HPnDQvklnpv9tH-5DLQT-6" vertex="1" connectable="0">
           <mxGeometry x="-0.1417" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-1" target="HPnDQvklnpv9tH-5DLQT-9">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="HPnDQvklnpv9tH-5DLQT-1" target="HPnDQvklnpv9tH-5DLQT-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-1" target="HPnDQvklnpv9tH-5DLQT-15">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="HPnDQvklnpv9tH-5DLQT-1" target="HPnDQvklnpv9tH-5DLQT-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-1" value="必填校验，&lt;br&gt;长度校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-1" value="必填校验，&lt;br&gt;长度校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="340" y="235" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-3" value="访客信息填写" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-3" value="访客信息填写" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="320" y="135" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="165" as="targetPoint" />
             <mxPoint x="420" y="366" as="sourcePoint" />
@@ -307,56 +307,56 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-12" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="HPnDQvklnpv9tH-5DLQT-10">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-12" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="HPnDQvklnpv9tH-5DLQT-10" vertex="1" connectable="0">
           <mxGeometry x="-0.4364" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-23" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-9" target="HPnDQvklnpv9tH-5DLQT-22">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-23" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="HPnDQvklnpv9tH-5DLQT-9" target="HPnDQvklnpv9tH-5DLQT-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-9" value="对应被访人到访时间区间校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-9" value="对应被访人到访时间区间校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="340" y="336" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-15" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.手机号&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;或身份证号二选其一&lt;br style=&quot;font-size: 14px;&quot;&gt;2.拜访原因&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-15" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.手机号&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;或身份证号二选其一&lt;br style=&quot;font-size: 14px;&quot;&gt;2.拜访原因&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="10" y="295" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-22" target="HPnDQvklnpv9tH-5DLQT-25">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HPnDQvklnpv9tH-5DLQT-22" target="HPnDQvklnpv9tH-5DLQT-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-27" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-22" target="HPnDQvklnpv9tH-5DLQT-26">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-27" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="HPnDQvklnpv9tH-5DLQT-22" target="HPnDQvklnpv9tH-5DLQT-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-22" value="新增访客记录表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-22" value="新增访客记录表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="320" y="435" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-25" value="&lt;font face=&quot;Verdana&quot;&gt;字段要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.到访状态-&amp;gt; 0:待签到&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-25" value="&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;要点说明:&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); background-color: initial;&quot; face=&quot;Verdana&quot;&gt;1.&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;访客记录表biz_visitor_record&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;新增记录&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2.到访状态-&amp;gt; 0:待签到&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;3.记录编号&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;规则毫秒时间+5位随机数字：2023010515550100166666&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;4.记录来源-&amp;gt; 0:管理平台登记&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;5.需要同步更新访客图片表biz_visitor_image表，通过访客记录表visitor_image_id逻辑关联，image_type为0登记照片" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="10" y="445" width="200" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="J5C4p3FA8g_natvKvLbQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-26" target="J5C4p3FA8g_natvKvLbQ-1">
+        <mxCell id="J5C4p3FA8g_natvKvLbQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="HPnDQvklnpv9tH-5DLQT-26" target="J5C4p3FA8g_natvKvLbQ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JNcjmXi-jqfRWwexeuY7-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="HPnDQvklnpv9tH-5DLQT-26" target="JNcjmXi-jqfRWwexeuY7-1">
+        <mxCell id="JNcjmXi-jqfRWwexeuY7-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="HPnDQvklnpv9tH-5DLQT-26" target="JNcjmXi-jqfRWwexeuY7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-26" value="访客下发规则解析" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-26" value="访客下发规则解析" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="320" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VZUX2Y9e9vC_aqdc_6QJ-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="J5C4p3FA8g_natvKvLbQ-1" target="VZUX2Y9e9vC_aqdc_6QJ-1">
+        <mxCell id="VZUX2Y9e9vC_aqdc_6QJ-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="J5C4p3FA8g_natvKvLbQ-1" target="VZUX2Y9e9vC_aqdc_6QJ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J5C4p3FA8g_natvKvLbQ-1" value="生成&lt;br&gt;访客登记命令" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="J5C4p3FA8g_natvKvLbQ-1" value="生成&lt;br&gt;访客登记命令" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="320" y="664" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J5C4p3FA8g_natvKvLbQ-5" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;登记方式：管理平台登记&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="J5C4p3FA8g_natvKvLbQ-5" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;登记方式：管理平台登记&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="630" y="104" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VZUX2Y9e9vC_aqdc_6QJ-1" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="VZUX2Y9e9vC_aqdc_6QJ-1" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="40" y="680" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="JNcjmXi-jqfRWwexeuY7-1" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要下发的设备列表&lt;br&gt;2.记录来源是设备端登记，下发列表需剔除上传的那台设备&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="JNcjmXi-jqfRWwexeuY7-1" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要下发的设备列表&lt;br&gt;2.记录来源是设备端登记，下发列表需剔除上传的那台设备&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="540" y="600" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
