@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T06:49:46.116Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="F2lHZaPqz72wOiGlFfdB" version="20.8.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-01-30T06:51:11.003Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="9Gh42U5IwJeIl1uSFM2Q" version="20.8.3" type="github" pages="11">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -904,7 +904,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BpqF1cyfhZ6XRAqWFw-f" name="通行记录上传">
-    <mxGraphModel dx="1049" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -945,8 +945,8 @@
         <mxCell id="bq8mbwd4jJRFwsIxlit1-3" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="368" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bq8mbwd4jJRFwsIxlit1-5" value="&lt;font face=&quot;Verdana&quot;&gt;此处通行记录无需进行命令生成&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="570" y="585" width="140" height="60" as="geometry" />
+        <mxCell id="bq8mbwd4jJRFwsIxlit1-5" value="&lt;font face=&quot;Verdana&quot;&gt;通行记录无需同步到其他设备，不用生成命令数据&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="570" y="585" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bq8mbwd4jJRFwsIxlit1-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dXinnqlWGV8nLSge1QEQ-3" target="bq8mbwd4jJRFwsIxlit1-5">
           <mxGeometry relative="1" as="geometry">
