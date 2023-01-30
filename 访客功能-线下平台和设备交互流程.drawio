@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T05:54:58.693Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zlgZqBZlmNwZRQ1gNBbg" version="20.8.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-01-30T06:32:09.071Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="DkyrP-eUKTPts7O9pv04" version="20.8.3" type="github" pages="11">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -908,70 +908,42 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="5gl5w4V_pq5RAV9cCMSn-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="679" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5gl5w4V_pq5RAV9cCMSn-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5gl5w4V_pq5RAV9cCMSn-3" target="5gl5w4V_pq5RAV9cCMSn-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-3" value="通行记录上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="329" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-13" value="是" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" target="5gl5w4V_pq5RAV9cCMSn-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="389" y="544" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="5gl5w4V_pq5RAV9cCMSn-3" value="设备&lt;br&gt;通行记录上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="368" y="115" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gl5w4V_pq5RAV9cCMSn-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Kr2qjjgUJlNUmWYARbQ-1" target="5gl5w4V_pq5RAV9cCMSn-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="189" y="623" as="targetPoint" />
+            <mxPoint x="228" y="648" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-17" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="5gl5w4V_pq5RAV9cCMSn-18" target="5gl5w4V_pq5RAV9cCMSn-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-18" value="访客登记后台逻辑" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="329" y="592" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-19" value="&lt;font face=&quot;Verdana&quot;&gt;要点说明:&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;Verdana&quot;&gt;1.record_id访客记录ID为必传参数，关联查询时，需通过此字段管理访客记录表&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;Verdana&quot;&gt;2.&lt;/font&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, 微软雅黑, &amp;quot;PingFang SC&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, 宋体, Heiti, 黑体, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;access_image通行照片，涉及&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;biz_visitor_image&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;访客图片表&lt;/font&gt;&lt;font style=&quot;background-color: initial; color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, 微软雅黑, &amp;quot;PingFang SC&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, 宋体, Heiti, 黑体, sans-serif;&quot; face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;和&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;biz_access_record&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;通行记录表，&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;通过通行记录表的access_image_id逻辑关联，image_type为1:通行照片" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="20" y="450" width="230" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="5gl5w4V_pq5RAV9cCMSn-22" target="5gl5w4V_pq5RAV9cCMSn-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="5gl5w4V_pq5RAV9cCMSn-22" target="5gl5w4V_pq5RAV9cCMSn-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-22" value="访客下发规则解析" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="329" y="697" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5gl5w4V_pq5RAV9cCMSn-24" target="5gl5w4V_pq5RAV9cCMSn-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-24" value="生成&lt;br&gt;访客登记命令" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="329" y="811" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-25" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;设备端发起&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="639" y="139" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-26" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="49" y="827" width="200" height="110" as="geometry" />
+        <mxCell id="5gl5w4V_pq5RAV9cCMSn-19" value="&lt;font face=&quot;Verdana&quot;&gt;要点说明:&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;Verdana&quot;&gt;1.record_id访客记录ID为必传参数，关联查询时，查询访客记录时，需通过此字段关联访客记录表&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;Verdana&quot;&gt;2.&lt;/font&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, 微软雅黑, &amp;quot;PingFang SC&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, 宋体, Heiti, 黑体, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;access_image通行照片，涉及&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;biz_visitor_image&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;访客图片表&lt;/font&gt;&lt;font style=&quot;background-color: initial; color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, 微软雅黑, &amp;quot;PingFang SC&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, 宋体, Heiti, 黑体, sans-serif;&quot; face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;和&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;biz_access_record&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, 微软雅黑, PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, 宋体, Heiti, 黑体, sans-serif&quot; color=&quot;#24292f&quot;&gt;通行记录表，&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;通过通行记录表的access_image_id逻辑关联，image_type为1:通行照片" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="49" y="405" width="230" height="180" as="geometry" />
         </mxCell>
         <mxCell id="5gl5w4V_pq5RAV9cCMSn-27" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="5gl5w4V_pq5RAV9cCMSn-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="389" y="350" as="targetPoint" />
+            <mxPoint x="428" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5gl5w4V_pq5RAV9cCMSn-28" value="访客通行记录&lt;br&gt;接口调用" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="329" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="368" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5gl5w4V_pq5RAV9cCMSn-29" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客规则表，筛选出需要下发的设备列表&lt;br&gt;2.记录来源是设备端登记，下发列表需剔除上传的那台设备&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="569" y="735" width="200" height="40" as="geometry" />
+        <mxCell id="dXinnqlWGV8nLSge1QEQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Kr2qjjgUJlNUmWYARbQ-1" target="dXinnqlWGV8nLSge1QEQ-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5Kr2qjjgUJlNUmWYARbQ-1" value="通行记录上传&lt;br&gt;后台逻辑" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="329" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="368" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dXinnqlWGV8nLSge1QEQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dXinnqlWGV8nLSge1QEQ-1" target="5gl5w4V_pq5RAV9cCMSn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dXinnqlWGV8nLSge1QEQ-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="408" y="25" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dXinnqlWGV8nLSge1QEQ-3" value="更新通行记录" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="368" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
