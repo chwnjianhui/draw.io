@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:44:45.514Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="iM5VpluAs5PHKUM5-nkA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:50:23.104Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="EDdftreu9mKFTpmX268k" type="github">
   <diagram id="bSl8LZLbaWm0HkjwW-vf" name="系统模块数据库关系图">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,23 +10,8 @@
         <mxCell id="azJqRBQaK8sIsL6d5xF9-2" value="用户表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="azJqRBQaK8sIsL6d5xF9-4" value="角色表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="azJqRBQaK8sIsL6d5xF9-5" value="角色表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="azJqRBQaK8sIsL6d5xF9-6" value="角色表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="azJqRBQaK8sIsL6d5xF9-7" value="角色表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="azJqRBQaK8sIsL6d5xF9-8" value="角色表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="azJqRBQaK8sIsL6d5xF9-9" value="角色表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-9" value="角色菜单关联表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="azJqRBQaK8sIsL6d5xF9-10" value="菜单表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="500" width="120" height="60" as="geometry" />
@@ -36,6 +21,24 @@
         </mxCell>
         <mxCell id="azJqRBQaK8sIsL6d5xF9-12" value="菜单原数据表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-13" value="按钮表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-14" value="菜单和按钮关联表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-15" value="角色和接口策略关联表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="620" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-16" value="系统日志表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-17" value="机构表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-18" value="casbin规则表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
