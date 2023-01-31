@@ -1,35 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:50:23.104Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="EDdftreu9mKFTpmX268k" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T07:00:14.959Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="sXAsxrTkPfvV1nrgPR5b" type="github">
   <diagram id="bSl8LZLbaWm0HkjwW-vf" name="系统模块数据库关系图">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="azJqRBQaK8sIsL6d5xF9-1" value="角色表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="azJqRBQaK8sIsL6d5xF9-2" value="用户表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="270" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="azJqRBQaK8sIsL6d5xF9-9" value="角色菜单关联表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="azJqRBQaK8sIsL6d5xF9-10" value="菜单表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="azJqRBQaK8sIsL6d5xF9-11" value="接口策略表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="azJqRBQaK8sIsL6d5xF9-12" value="菜单原数据表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="azJqRBQaK8sIsL6d5xF9-13" value="按钮表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="437" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="azJqRBQaK8sIsL6d5xF9-14" value="菜单和按钮关联表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="azJqRBQaK8sIsL6d5xF9-15" value="角色和接口策略关联表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="620" width="130" height="60" as="geometry" />
+          <mxGeometry x="435" y="620" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="azJqRBQaK8sIsL6d5xF9-16" value="系统日志表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="730" width="120" height="60" as="geometry" />
@@ -38,7 +29,40 @@
           <mxGeometry x="270" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="azJqRBQaK8sIsL6d5xF9-18" value="casbin规则表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="445" y="730" width="120" height="60" as="geometry" />
+          <mxGeometry x="437" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="140" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="azJqRBQaK8sIsL6d5xF9-26">
+          <mxGeometry width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-10" value="菜单表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="azJqRBQaK8sIsL6d5xF9-26">
+          <mxGeometry x="100" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="azJqRBQaK8sIsL6d5xF9-26" source="azJqRBQaK8sIsL6d5xF9-12" target="azJqRBQaK8sIsL6d5xF9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-12" value="菜单元数据表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="azJqRBQaK8sIsL6d5xF9-26">
+          <mxGeometry x="30" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="azJqRBQaK8sIsL6d5xF9-26" source="azJqRBQaK8sIsL6d5xF9-13" target="azJqRBQaK8sIsL6d5xF9-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="110" />
+              <mxPoint x="160" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-13" value="按钮表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="azJqRBQaK8sIsL6d5xF9-26">
+          <mxGeometry x="170" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-27" value="菜单、按钮、原数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462" y="150" width="148" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="azJqRBQaK8sIsL6d5xF9-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="azJqRBQaK8sIsL6d5xF9-20" target="azJqRBQaK8sIsL6d5xF9-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
