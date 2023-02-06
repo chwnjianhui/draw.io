@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T03:01:36.543Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="N_wzyKNYT0pGWD1CiCFe" version="20.8.14" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-02-06T03:04:13.769Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="mkPiEWKsc7OZrjgCAkii" version="20.8.14" type="github" pages="12">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1117,10 +1117,10 @@
         <mxCell id="wOJb_vzXi0RPBu33Jgkm-53" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;fillColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="wOJb_vzXi0RPBu33Jgkm-51">
           <mxGeometry x="1.3720653461034835" y="1.6335030909450203" width="30.278921765499994" height="30.278921765499994" as="geometry" />
         </mxCell>
-        <mxCell id="wOJb_vzXi0RPBu33Jgkm-69" value="" style="group;strokeColor=default;" vertex="1" connectable="0" parent="NM0L9iIVnVXAiv2Ywrat-1">
-          <mxGeometry x="370" y="620" width="130" height="130" as="geometry" />
+        <mxCell id="wOJb_vzXi0RPBu33Jgkm-69" value="" style="group;strokeColor=default;labelBorderColor=default;" vertex="1" connectable="0" parent="NM0L9iIVnVXAiv2Ywrat-1">
+          <mxGeometry x="370" y="585" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="wOJb_vzXi0RPBu33Jgkm-62" value="访客3.6.7" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=1;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;fontColor=#879196;dashed=1;spacingTop=3;labelBorderColor=#000000;" vertex="1" parent="wOJb_vzXi0RPBu33Jgkm-69">
+        <mxCell id="wOJb_vzXi0RPBu33Jgkm-62" value="访客3.6" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=1;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;fontColor=#879196;dashed=1;spacingTop=3;labelBorderColor=#000000;" vertex="1" parent="wOJb_vzXi0RPBu33Jgkm-69">
           <mxGeometry width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wOJb_vzXi0RPBu33Jgkm-66" value="" style="group" vertex="1" connectable="0" parent="wOJb_vzXi0RPBu33Jgkm-69">
@@ -1140,6 +1140,12 @@
         </mxCell>
         <mxCell id="wOJb_vzXi0RPBu33Jgkm-73" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="wOJb_vzXi0RPBu33Jgkm-71">
           <mxGeometry x="3" y="3.5" width="41" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJb_vzXi0RPBu33Jgkm-76" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="NM0L9iIVnVXAiv2Ywrat-1" source="wOJb_vzXi0RPBu33Jgkm-73" target="wOJb_vzXi0RPBu33Jgkm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOJb_vzXi0RPBu33Jgkm-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="NM0L9iIVnVXAiv2Ywrat-1" source="wOJb_vzXi0RPBu33Jgkm-62" target="wOJb_vzXi0RPBu33Jgkm-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
