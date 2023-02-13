@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T08:17:43.824Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="noi4Mf5x9Z00sh304nd2" version="20.8.20" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-02-13T09:52:06.619Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="0lnHPBsTGE4b-h7pdd8p" version="20.8.20" type="github" pages="13">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1041" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -250,7 +250,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lNtZs3D9O1DbTZZ7Itks" name="访客登记细化-管理平台登记">
-    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1041" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -353,7 +353,7 @@
         <mxCell id="J5C4p3FA8g_natvKvLbQ-5" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;登记方式：管理平台登记&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="630" y="104" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VZUX2Y9e9vC_aqdc_6QJ-1" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="VZUX2Y9e9vC_aqdc_6QJ-1" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;管理平台登记" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="40" y="680" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="JNcjmXi-jqfRWwexeuY7-1" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要下发的设备列表&lt;br&gt;2.记录来源是设备端登记，下发列表需剔除上传的那台设备&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
@@ -1239,6 +1239,14 @@
             <mxPoint x="609" y="530" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CK8Rs1-qKYeLk28E73_w" name="新增访客设备-有效访客记录下发">
+    <mxGraphModel dx="1041" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
