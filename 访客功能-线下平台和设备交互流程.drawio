@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T10:06:28.568Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="z2o1giqc4JoTp5YMQM3j" version="20.8.20" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-02-13T10:06:50.633Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="4ZXVkr5ujFZOPfQHiRYj" version="20.8.20" type="github" pages="13">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1041" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1278,7 +1278,7 @@
           <mxGeometry x="420" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AIFBTcJrZEqqxCv9jQW2-26" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;cmd.data.device.add.visitor.info&lt;br&gt;&lt;/font&gt;2.需要带访客状态属性&lt;br&gt;详见jira ，技术文档-管理平台对接设备接口文档" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="120" y="465" width="240" height="110" as="geometry" />
+          <mxGeometry x="110" y="420" width="240" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
