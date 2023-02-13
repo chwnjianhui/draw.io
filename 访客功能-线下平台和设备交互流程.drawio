@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T09:54:47.872Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MFY27mvdp53y8UGojPuy" version="20.8.20" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-02-13T10:05:54.180Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="xg2uGenMAjeJ8UnIYtG_" version="20.8.20" type="github" pages="13">
   <diagram name="线下访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1041" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1247,6 +1247,39 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AIFBTcJrZEqqxCv9jQW2-4" target="AIFBTcJrZEqqxCv9jQW2-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-4" value="新增访客设备" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AIFBTcJrZEqqxCv9jQW2-18" target="AIFBTcJrZEqqxCv9jQW2-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AIFBTcJrZEqqxCv9jQW2-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-18" value="查找有效&lt;br&gt;访客记录" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-19" value="&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;要点说明:&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;查找未完结的访客记录。到访状态为 0：待签到，1：已签到&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="200" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="AIFBTcJrZEqqxCv9jQW2-24" target="AIFBTcJrZEqqxCv9jQW2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-24" value="生成&lt;br&gt;访客登记命令" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-26" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;cmd.data.device.add.visitor.info&lt;br&gt;&lt;/font&gt;2.需要带访客状态属性&lt;br&gt;详见jira ，技术文档-管理平台对接设备接口文档" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="240" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
