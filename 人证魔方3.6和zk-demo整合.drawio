@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T06:00:16.356Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="CzTc6Sih_pI4-9zJOjw9" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T06:03:12.002Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="s2JkUqrO_qvoGzDk7Dtj" version="20.8.20" type="github">
   <diagram name="整合整体框架图" id="AVH7sIGC2iNiJP3TdeZ6">
     <mxGraphModel dx="1041" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,10 +16,10 @@
         <mxCell id="me26ODatHpE2xPbkecpJ-16" value="新系统模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="me26ODatHpE2xPbkecpJ-4">
           <mxGeometry x="51.42" y="50" width="98.58" height="55.46" as="geometry" />
         </mxCell>
-        <mxCell id="me26ODatHpE2xPbkecpJ-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="me26ODatHpE2xPbkecpJ-4">
+        <mxCell id="me26ODatHpE2xPbkecpJ-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="me26ODatHpE2xPbkecpJ-4" target="me26ODatHpE2xPbkecpJ-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="160" as="sourcePoint" />
-            <mxPoint x="290" y="110" as="targetPoint" />
+            <mxPoint x="300" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="me26ODatHpE2xPbkecpJ-9" value="" style="group;align=left;fontStyle=1;labelBorderColor=default;" vertex="1" connectable="0" parent="1">
@@ -65,11 +65,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="me26ODatHpE2xPbkecpJ-26" value="1.保持接口协议不变&lt;br&gt;2.xorm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="140" width="110" height="30" as="geometry" />
+        <mxCell id="me26ODatHpE2xPbkecpJ-26" value="1.保持接口协议不变&lt;br&gt;2.xorm及gorm共存&lt;br&gt;3." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="110" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="me26ODatHpE2xPbkecpJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="me26ODatHpE2xPbkecpJ-20" target="me26ODatHpE2xPbkecpJ-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="me26ODatHpE2xPbkecpJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="me26ODatHpE2xPbkecpJ-20" target="me26ODatHpE2xPbkecpJ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="420" />
+              <mxPoint x="390" y="225" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="me26ODatHpE2xPbkecpJ-29" value="整合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="me26ODatHpE2xPbkecpJ-28">
           <mxGeometry x="-0.4798" y="1" relative="1" as="geometry">
