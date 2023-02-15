@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T01:20:28.411Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="KnlDg8qIYpo7y2A_jWEE" version="20.8.20" type="github">
-  <diagram name="整合整体框架图" id="AVH7sIGC2iNiJP3TdeZ6">
+<mxfile host="app.diagrams.net" modified="2023-02-15T02:08:49.766Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="vfQDRplEI_A8ttj5clai" version="20.8.20" type="github" pages="2">
+  <diagram name="系统整合-后端" id="AVH7sIGC2iNiJP3TdeZ6">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -133,6 +133,145 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="me26ODatHpE2xPbkecpJ-50" value="要点说明:&lt;br&gt;1.前端语言升级vue2-&amp;gt;vue3&lt;br&gt;2.组件库，原有业务界面使用element UI，需做样式适配兼容，新业务界面功能使用ant design&lt;br&gt;3.后续如果时间允许，可考虑使用ant design对原有业务界面做重构" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="620" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="系统整合-前端" id="KbraadqnSTjbhesUU3vP">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-0" />
+        <mxCell id="47zQcHFhDKx4EtPazjJv-1" parent="47zQcHFhDKx4EtPazjJv-0" />
+        <mxCell id="47zQcHFhDKx4EtPazjJv-2" value="" style="group;labelBorderColor=#000000;" vertex="1" connectable="0" parent="47zQcHFhDKx4EtPazjJv-1">
+          <mxGeometry x="400" y="50" width="240" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="47zQcHFhDKx4EtPazjJv-2" target="47zQcHFhDKx4EtPazjJv-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-4" value="" style="group" vertex="1" connectable="0" parent="47zQcHFhDKx4EtPazjJv-2">
+          <mxGeometry width="240" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-5" value="zk-demo" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=1;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;fontColor=#879196;dashed=1;spacingTop=3;labelBorderColor=none;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-4">
+          <mxGeometry width="240" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-6" value="旧人证魔方3.6&lt;br&gt;模块代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-4">
+          <mxGeometry x="51.42" y="120" width="105.79" height="72.73" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-7" value="新系统模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-4">
+          <mxGeometry x="51.42" y="50" width="98.58" height="55.46" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-8" value="其他业务模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-4">
+          <mxGeometry x="55.03000000000003" y="210" width="98.58" height="55.46" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;....&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-4">
+          <mxGeometry x="74.32" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-10" value="" style="group;align=left;fontStyle=1;labelBorderColor=default;" vertex="1" connectable="0" parent="47zQcHFhDKx4EtPazjJv-1">
+          <mxGeometry x="90" y="43" width="210" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-11" value="" style="group" vertex="1" connectable="0" parent="47zQcHFhDKx4EtPazjJv-10">
+          <mxGeometry width="210" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-12" value="旧人证魔方3.6-后端" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=1;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;fontColor=#879196;dashed=1;spacingTop=3;labelBorderColor=none;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-11">
+          <mxGeometry width="210" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-13" value="系统模块、&lt;br&gt;权限功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-11">
+          <mxGeometry x="52.5" y="53.75" width="87.5" height="59.619499999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-14" value="第三方接口&lt;br&gt;功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-11">
+          <mxGeometry x="51.8" y="197" width="88.89999999999999" height="59.619499999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-15" value="设备端接口&lt;br&gt;功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-11">
+          <mxGeometry x="52.5" y="267" width="88.89999999999999" height="59.619499999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-16" value="前端页面接口&lt;br&gt;功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-11">
+          <mxGeometry x="52.5" y="127.00050000000002" width="88.89999999999999" height="59.619499999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-17" value="系统初始化、&lt;br&gt;token及会话机制、&lt;br&gt;db初始化方式等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-11">
+          <mxGeometry x="51.1" y="347" width="108.9" height="59.62" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="47zQcHFhDKx4EtPazjJv-1" source="47zQcHFhDKx4EtPazjJv-13" target="47zQcHFhDKx4EtPazjJv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-19" value="整合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="47zQcHFhDKx4EtPazjJv-18">
+          <mxGeometry x="0.0892" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="47zQcHFhDKx4EtPazjJv-1" source="47zQcHFhDKx4EtPazjJv-16" target="47zQcHFhDKx4EtPazjJv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="47zQcHFhDKx4EtPazjJv-1" source="47zQcHFhDKx4EtPazjJv-14" target="47zQcHFhDKx4EtPazjJv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="47zQcHFhDKx4EtPazjJv-1" source="47zQcHFhDKx4EtPazjJv-15" target="47zQcHFhDKx4EtPazjJv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-23" value="移植" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="47zQcHFhDKx4EtPazjJv-22">
+          <mxGeometry x="0.512" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-24" value="要点说明:&lt;br&gt;1.保持接口协议不变&lt;br&gt;2.xorm及gorm共存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-1">
+          <mxGeometry x="700" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="47zQcHFhDKx4EtPazjJv-1" source="47zQcHFhDKx4EtPazjJv-17" target="47zQcHFhDKx4EtPazjJv-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="420" />
+              <mxPoint x="390" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-26" value="整合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="47zQcHFhDKx4EtPazjJv-25">
+          <mxGeometry x="-0.4798" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-27" value="" style="group;align=left;fontStyle=1;labelBorderColor=default;" vertex="1" connectable="0" parent="47zQcHFhDKx4EtPazjJv-1">
+          <mxGeometry x="130" y="570" width="210" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-28" value="旧人证魔方3.6-前端" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=1;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;fontColor=#879196;dashed=1;spacingTop=3;labelBorderColor=none;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-27">
+          <mxGeometry width="210" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-29" value="vue2&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;align=center;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-27">
+          <mxGeometry x="45" y="50" width="120" height="64.55" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-30" value="element UI" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;align=center;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-27">
+          <mxGeometry x="45" y="130" width="120" height="64.55" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-31" value="" style="group;align=left;fontStyle=1;labelBorderColor=default;" vertex="1" connectable="0" parent="47zQcHFhDKx4EtPazjJv-1">
+          <mxGeometry x="400" y="570" width="210" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-32" value="前端升级" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=1;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;fontColor=#879196;dashed=1;spacingTop=3;labelBorderColor=none;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-31">
+          <mxGeometry width="210" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-33" value="vue3" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;align=center;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-31">
+          <mxGeometry x="45" y="53" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-34" value="element UI&lt;br&gt;旧业务模块适配" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;align=center;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-31">
+          <mxGeometry x="45" y="133" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-35" value="ant design&lt;br&gt;(新功能使用)" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;align=center;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-31">
+          <mxGeometry x="45" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="47zQcHFhDKx4EtPazjJv-1" source="47zQcHFhDKx4EtPazjJv-29" target="47zQcHFhDKx4EtPazjJv-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="47zQcHFhDKx4EtPazjJv-1" source="47zQcHFhDKx4EtPazjJv-30" target="47zQcHFhDKx4EtPazjJv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="47zQcHFhDKx4EtPazjJv-1" source="47zQcHFhDKx4EtPazjJv-34" target="47zQcHFhDKx4EtPazjJv-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="730" as="sourcePoint" />
+            <mxPoint x="690" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47zQcHFhDKx4EtPazjJv-39" value="要点说明:&lt;br&gt;1.前端语言升级vue2-&amp;gt;vue3&lt;br&gt;2.组件库，原有业务界面使用element UI，需做样式适配兼容，新业务界面功能使用ant design&lt;br&gt;3.后续如果时间允许，可考虑使用ant design对原有业务界面做重构" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="47zQcHFhDKx4EtPazjJv-1">
           <mxGeometry x="660" y="620" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
