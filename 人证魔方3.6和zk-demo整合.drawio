@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T01:13:02.199Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="cvLJX66OFj6SP72zeeTk" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-15T01:15:52.505Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="y0amEKKkvXkrH1Xn2gUY" version="20.8.20" type="github">
   <diagram name="整合整体框架图" id="AVH7sIGC2iNiJP3TdeZ6">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,7 +123,7 @@
             <mxPoint x="690" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="me26ODatHpE2xPbkecpJ-50" value="要点说明:&lt;br&gt;1.前端语言升级vue2-&amp;gt;vue3&lt;br&gt;2.组件库，原有业务界面使用element UI，需做样式适配兼容，新业务界面功能使用ant design" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="me26ODatHpE2xPbkecpJ-50" value="要点说明:&lt;br&gt;1.前端语言升级vue2-&amp;gt;vue3&lt;br&gt;2.组件库，原有业务界面使用element UI，需做样式适配兼容，新业务界面功能使用ant design&lt;br&gt;3.后续如果时间允许，可考虑使用ant design对原有业务界面做重构" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="620" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
