@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T06:10:54.252Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="0Selt6ZMt1kMPt6Bgm7x" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-15T00:55:08.311Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="190YksRmievPSJcRxXEQ" version="20.8.20" type="github">
   <diagram name="整合整体框架图" id="AVH7sIGC2iNiJP3TdeZ6">
-    <mxGraphModel dx="1041" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,11 +22,8 @@
             <mxPoint x="300" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="me26ODatHpE2xPbkecpJ-30" value="访客模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="me26ODatHpE2xPbkecpJ-4">
+        <mxCell id="me26ODatHpE2xPbkecpJ-30" value="其他业务模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="me26ODatHpE2xPbkecpJ-4">
           <mxGeometry x="55.03000000000003" y="210" width="98.58" height="55.46" as="geometry" />
-        </mxCell>
-        <mxCell id="me26ODatHpE2xPbkecpJ-31" value="访客小程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="me26ODatHpE2xPbkecpJ-4">
-          <mxGeometry x="55.03000000000003" y="280" width="98.58" height="55.46" as="geometry" />
         </mxCell>
         <mxCell id="me26ODatHpE2xPbkecpJ-9" value="" style="group;align=left;fontStyle=1;labelBorderColor=default;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="90" y="43" width="210" height="430" as="geometry" />
