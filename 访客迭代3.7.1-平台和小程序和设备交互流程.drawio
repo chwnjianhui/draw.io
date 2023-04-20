@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T10:52:32.076Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="K_6HNaU02-XN0DUv8PSY" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-20T10:54:22.212Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="HSXrEcoQ0deMUwOFsyxC" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -416,7 +416,7 @@
         <mxCell id="HPnDQvklnpv9tH-5DLQT-22" value="新增访客记录表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="320" y="1031" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-25" value="&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;要点说明:&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); background-color: initial;&quot; face=&quot;Verdana&quot;&gt;1.&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;访客记录表biz_visitor_record&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;新增记录&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2.到访状态-&amp;gt; 0:待签到&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;3.记录编号&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;规则毫秒时间+5位随机数字：2023010515550100166666&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;4.记录来源-&amp;gt; 0:管理平台登记&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;5.如有登记照片，需要同步更新访客图片表biz_visitor_image表，通过访客记录表visitor_image_id逻辑关联，image_type为0登记照片&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;6.修改审批状态，&lt;br&gt;免审：审核状态为已通过，审核人为空。&lt;br&gt;需审：审核状态为已通过/已拒绝，审批人为被访人，实际审批人根据【访客审批配置表】的审批者标识和审批人做判断。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-25" value="&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;要点说明:&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); background-color: initial;&quot; face=&quot;Verdana&quot;&gt;1.&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;访客记录表biz_visitor_record&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;新增记录&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2.到访状态-&amp;gt; 0:待签到&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;3.记录编号&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;规则毫秒时间+5位随机数字：2023010515550100166666&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;4.记录来源-&amp;gt; 0:管理平台登记&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;5.如有登记照片，需要同步更新访客图片表biz_visitor_image表，通过访客记录表visitor_image_id逻辑关联，image_type为0登记照片&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;6.修改审批状态，&lt;br&gt;免审：审核状态为已通过，审核人为空。&lt;br&gt;需审：审核状态为已通过/已拒绝，审批人为被访人，实际审批人根据【访客审批配置表】的审批者标识和审批人做判断。&lt;br&gt;7.修改签到状态为待签到。&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="20" y="760" width="200" height="115" as="geometry" />
         </mxCell>
         <mxCell id="J5C4p3FA8g_natvKvLbQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="HPnDQvklnpv9tH-5DLQT-26" target="J5C4p3FA8g_natvKvLbQ-1" edge="1">
@@ -488,7 +488,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3IK_QB_cwPgIFFeRx66g-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3IK_QB_cwPgIFFeRx66g-8" target="3IK_QB_cwPgIFFeRx66g-14">
+        <mxCell id="3IK_QB_cwPgIFFeRx66g-15" value="拒绝" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3IK_QB_cwPgIFFeRx66g-8" target="3IK_QB_cwPgIFFeRx66g-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3IK_QB_cwPgIFFeRx66g-8" value="审核" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -503,7 +503,7 @@
             <mxPoint x="340" y="1040" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3IK_QB_cwPgIFFeRx66g-14" value="更新审核状态，&lt;br&gt;及审核人" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="3IK_QB_cwPgIFFeRx66g-14" value="更新审核状态，&lt;br&gt;及审核人&lt;br&gt;签到状态为空。" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="680" y="690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
