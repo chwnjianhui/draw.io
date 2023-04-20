@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T06:24:43.312Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="tQBnph5DcJDt28R1vPke" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-20T06:25:17.548Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="3TLkkDgi1rlXHQsUaOYo" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-990" width="1214" height="2570" as="geometry" />
+          <mxGeometry x="-1010" width="1214" height="2560" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="线下管理平台" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="340" height="2550" as="geometry" />
+          <mxGeometry y="20" width="370" height="2540" as="geometry" />
         </mxCell>
         <mxCell id="qX3Qkyjl7L2mzhPy5UPY-28" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry y="1930" width="290" height="340" as="geometry" />
+          <mxGeometry x="10" y="1930" width="290" height="340" as="geometry" />
         </mxCell>
         <mxCell id="ZGC6HPYd10cx2F-NtQd5-4" value="平台后端接口逻辑" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="24" y="1028" width="100" height="60" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qX3Qkyjl7L2mzhPy5UPY-23" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry y="1505" width="290" height="120" as="geometry" />
+          <mxGeometry x="10" y="1505" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qX3Qkyjl7L2mzhPy5UPY-13" value="结合审批人规则&lt;br&gt;生成访客记录" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="77" y="2080" width="100" height="60" as="geometry" />
@@ -179,7 +179,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="设备端" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="340" y="20" width="290" height="2550" as="geometry" />
+          <mxGeometry x="370" y="20" width="290" height="2540" as="geometry" />
         </mxCell>
         <mxCell id="ODfVzbznZNnonKpEAohW-11" value="设备端&lt;br&gt;访客登记" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="24" y="1028" width="100" height="60" as="geometry" />
@@ -211,16 +211,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="小程序端" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="630" y="20" width="160" height="2550" as="geometry" />
+          <mxGeometry x="660" y="20" width="160" height="2540" as="geometry" />
         </mxCell>
         <mxCell id="qX3Qkyjl7L2mzhPy5UPY-10" value="小程序登记" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="8" y="1390" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="Lane 5" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="790" y="20" width="160" height="2550" as="geometry" />
+          <mxGeometry x="820" y="20" width="160" height="2540" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Lane 6" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="950" y="20" width="160" height="2550" as="geometry" />
+          <mxGeometry x="980" y="20" width="160" height="2540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
