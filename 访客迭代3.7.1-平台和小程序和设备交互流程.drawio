@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T06:35:22.215Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="HOyAhFjWmB3DoAQkQPMB" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-20T06:36:29.208Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Z3O885mRXflhOUSGseMJ" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -15,6 +15,14 @@
         </mxCell>
         <mxCell id="ZGC6HPYd10cx2F-NtQd5-4" value="平台后端接口逻辑" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="102" y="1028" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-ctVs05eHUPVldUFI_E-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="ODfVzbznZNnonKpEAohW-14" target="ODfVzbznZNnonKpEAohW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-ctVs05eHUPVldUFI_E-17" value="不合规" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o-ctVs05eHUPVldUFI_E-16">
+          <mxGeometry x="0.275" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ODfVzbznZNnonKpEAohW-14" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px;&quot;&gt;信息查询校验&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: Helvetica; font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px;&quot;&gt;（WBS）&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#CCFFCC;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="112" y="1128" width="80" height="60" as="geometry" />
@@ -257,14 +265,6 @@
         </mxCell>
         <mxCell id="qX3Qkyjl7L2mzhPy5UPY-9" value="页面&lt;br&gt;登记" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="qX3Qkyjl7L2mzhPy5UPY-10" target="qX3Qkyjl7L2mzhPy5UPY-1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ODfVzbznZNnonKpEAohW-19" value="不合规" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" parent="77e6c97f196da883-1" source="ODfVzbznZNnonKpEAohW-14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="492" y="1110" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="492" y="1178" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
