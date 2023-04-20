@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T05:41:08.631Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="UOdSEHNu-LUaY3xOFXNk" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-20T06:05:15.131Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MhyNKKUiYxXH_A8q0np_" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -171,7 +171,7 @@
           <mxGeometry x="40" y="588" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qX3Qkyjl7L2mzhPy5UPY-11" value="设备&lt;br&gt;查询登记信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="92" y="1890" width="100" height="60" as="geometry" />
+          <mxGeometry x="100" y="1880" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="un8ozhvnrNJlKi_X8H01-1" value="" style="endArrow=none;html=1;rounded=0;" parent="77e6c97f196da883-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
