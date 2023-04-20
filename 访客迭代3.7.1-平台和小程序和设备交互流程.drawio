@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T06:41:57.100Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="GBnC0XtoadadvNVlsydK" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-20T06:45:35.489Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="BAgPxn6IHdPbUQ3TXuSI" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-1010" width="1598" height="2560" as="geometry" />
+          <mxGeometry x="-1010" width="1598" height="2520" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="线下管理平台" style="swimlane;html=1;startSize=20;align=left;fillColor=default;strokeColor=#36393d;gradientColor=none;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="900" height="2540" as="geometry" />
+          <mxGeometry y="20" width="900" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="qX3Qkyjl7L2mzhPy5UPY-28" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="29" y="1930" width="290" height="340" as="geometry" />
@@ -123,7 +123,7 @@
         <mxCell id="qX3Qkyjl7L2mzhPy5UPY-25" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;页面配置查询&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="96" y="1535" width="100" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-8" value="页面访客登记" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="77e6c97f196da883-8" value="web页面访客登记" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="126" y="60" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=10;" parent="77e6c97f196da883-3" source="77e6c97f196da883-8" edge="1">
@@ -214,7 +214,7 @@
           <mxGeometry x="117" y="737" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="设备端" style="swimlane;html=1;startSize=20;align=left;" parent="77e6c97f196da883-3" vertex="1">
-          <mxGeometry x="370" width="530" height="2540" as="geometry" />
+          <mxGeometry x="370" width="530" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="ODfVzbznZNnonKpEAohW-11" value="设备端&lt;br&gt;访客登记" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="102" y="1028" width="100" height="60" as="geometry" />
@@ -246,7 +246,7 @@
           <mxGeometry x="100" y="737" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="小程序端" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-4" vertex="1">
-          <mxGeometry x="290" width="240" height="2540" as="geometry" />
+          <mxGeometry x="290" width="240" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="qX3Qkyjl7L2mzhPy5UPY-10" value="小程序登记" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="70" y="1390" width="100" height="60" as="geometry" />
