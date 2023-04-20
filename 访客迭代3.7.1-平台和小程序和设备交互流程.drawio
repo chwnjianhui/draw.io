@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T10:25:58.383Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="fgZcXidjTb64EIUR30xA" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-20T10:26:52.524Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gbvz6iYEHrCpdw77CceR" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -389,7 +389,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HPnDQvklnpv9tH-5DLQT-23" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="HPnDQvklnpv9tH-5DLQT-9" edge="1">
+        <mxCell id="HPnDQvklnpv9tH-5DLQT-23" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HPnDQvklnpv9tH-5DLQT-9" target="3IK_QB_cwPgIFFeRx66g-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="490" as="targetPoint" />
           </mxGeometry>
@@ -441,7 +441,10 @@
           <mxGeometry x="540" y="940" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3IK_QB_cwPgIFFeRx66g-1" value="是否免审" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="340" y="490" width="80" height="60" as="geometry" />
+          <mxGeometry x="340" y="585" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3IK_QB_cwPgIFFeRx66g-2" value="审批规则" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
