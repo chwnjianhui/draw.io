@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T01:48:46.577Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1ij3nJfmH3i2JwcHJrSW" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-21T01:50:45.241Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="bhE9agcwk41yHTzfXFUP" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1141,6 +1141,15 @@
         </mxCell>
         <mxCell id="B5pyd3krS9Cf-qAk9p6i-6" value="数据来源&lt;br&gt;是否设备端" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="330" y="310" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B5pyd3krS9Cf-qAk9p6i-14" value="&lt;font face=&quot;Verdana&quot;&gt;说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;biz_visitor_device表中，后续会在访客设备上标识，哪些访客设备是签到设备。(待产品设计)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="555" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="B5pyd3krS9Cf-qAk9p6i-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B5pyd3krS9Cf-qAk9p6i-2" target="B5pyd3krS9Cf-qAk9p6i-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="587" as="targetPoint" />
+            <mxPoint x="463" y="520" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
