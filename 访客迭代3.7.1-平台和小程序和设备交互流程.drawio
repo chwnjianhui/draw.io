@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T07:34:28.041Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jDNVM4bDCPMKYI0WKItx" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-21T08:21:34.140Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="BV1aeBc8U47BrH-e-Rsa" version="21.1.9" type="github" pages="12">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2601" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -327,7 +327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lNtZs3D9O1DbTZZ7Itks" name="访客登记细化-管理平台登记">
-    <mxGraphModel dx="1501" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1289" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,7 +510,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="访客登记细化-小程序登记" id="KGpdJd9GQHaEE7OqFPoq">
-    <mxGraphModel dx="1501" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1289" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-0" />
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-1" parent="nBZuh7KVL-DdWW9Z5y6s-0" />
@@ -1341,7 +1341,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CK8Rs1-qKYeLk28E73_w" name="新增访客设备-有效访客记录下发">
-    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1289" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1378,6 +1378,71 @@
         <mxCell id="AIFBTcJrZEqqxCv9jQW2-26" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;cmd.data.device.add.visitor.info&lt;br&gt;&lt;/font&gt;2.需要带访客状态属性&lt;br&gt;详见jira ，技术文档-管理平台对接设备接口文档" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="110" y="420" width="240" height="110" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gbrKyY1junPG9FPm0WVe" name="第 11 页">
+    <mxGraphModel dx="1289" dy="1801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="430" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-1" value="小程序后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="45" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfEZrRrDUHCWT4JXba_6-2" target="ZfEZrRrDUHCWT4JXba_6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZfEZrRrDUHCWT4JXba_6-2" target="ZfEZrRrDUHCWT4JXba_6-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-2" value="小程序" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-5" value="cube" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-6" value="admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-7" value="visitor&lt;br&gt;1.小程序接口&lt;br&gt;2.页面接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="660" y="90" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-8" value="管理系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixJgwNPh7YBQuY_s6Jjw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfEZrRrDUHCWT4JXba_6-9" target="ZfEZrRrDUHCWT4JXba_6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixJgwNPh7YBQuY_s6Jjw-4" value="http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ixJgwNPh7YBQuY_s6Jjw-3">
+          <mxGeometry x="0.0562" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-9" value="小程序对外接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-11" value="nacos" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixJgwNPh7YBQuY_s6Jjw-1" value="小程序后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-40" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixJgwNPh7YBQuY_s6Jjw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-260" width="430" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2jXTbrXX7RdRxBwx6OFK" name="第 12 页">
+    <mxGraphModel dx="1289" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
