@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T01:55:59.333Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="oH8hC9LIXzUk1nQpGJ4Z" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-21T01:56:38.806Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="bQeZHUjW5RqX7MABKWqU" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -991,7 +991,7 @@
         <mxCell id="J-QCjOH0SYcPsZyIyYGA-3" value="&lt;h1&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;访客签离&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;设备端签离&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="NPHjRaSWmTCTjWpGkUt6-18" vertex="1">
           <mxGeometry x="10" y="531.5" width="190" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="J-QCjOH0SYcPsZyIyYGA-4" value="&lt;h1&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;访客过期&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;待签到/已签到，定时过期&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="NPHjRaSWmTCTjWpGkUt6-18" vertex="1">
+        <mxCell id="J-QCjOH0SYcPsZyIyYGA-4" value="&lt;h1&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;访客过期&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;待签到/已签到&lt;/font&gt;，定时过期&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="NPHjRaSWmTCTjWpGkUt6-18" vertex="1">
           <mxGeometry x="10" y="860" width="190" height="77" as="geometry" />
         </mxCell>
         <mxCell id="NPHjRaSWmTCTjWpGkUt6-19" value="Lane 5" style="swimlane;html=1;startSize=20;" parent="NPHjRaSWmTCTjWpGkUt6-1" vertex="1">
