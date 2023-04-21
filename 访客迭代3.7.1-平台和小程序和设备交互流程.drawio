@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T08:21:34.140Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="BV1aeBc8U47BrH-e-Rsa" version="21.1.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-04-21T08:22:09.347Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="GYmCdM3rWcUQEigzIWTo" version="21.1.9" type="github" pages="12">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2601" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1389,7 +1389,7 @@
         <mxCell id="ZfEZrRrDUHCWT4JXba_6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="50" width="430" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="ZfEZrRrDUHCWT4JXba_6-1" value="小程序后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-1" value="小程序对接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="45" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZfEZrRrDUHCWT4JXba_6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfEZrRrDUHCWT4JXba_6-2" target="ZfEZrRrDUHCWT4JXba_6-1">
@@ -1423,14 +1423,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZfEZrRrDUHCWT4JXba_6-9" value="小程序对外接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZfEZrRrDUHCWT4JXba_6-9" value="小程序对外接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
           <mxGeometry x="400" y="240" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZfEZrRrDUHCWT4JXba_6-11" value="nacos" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="100" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ixJgwNPh7YBQuY_s6Jjw-1" value="小程序后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="-40" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ixJgwNPh7YBQuY_s6Jjw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="-260" width="430" height="280" as="geometry" />
