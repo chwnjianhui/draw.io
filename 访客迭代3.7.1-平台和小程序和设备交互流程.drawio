@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T01:24:08.566Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="V5kf13B6dy6K1k8WGYdf" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-21T01:24:35.971Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="lWMM05rJjYx3ufmqjDD9" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -514,6 +514,9 @@
       <root>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-0" />
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-1" parent="M_IpAKeHnNYmM8sJ73b6-0" />
+        <mxCell id="OKBbptCal1WCCjIp1RJ8-49" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="M_IpAKeHnNYmM8sJ73b6-1">
+          <mxGeometry x="310" y="315" width="160" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-5" target="M_IpAKeHnNYmM8sJ73b6-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -546,7 +549,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-10" value="必填校验，&lt;br&gt;长度校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" parent="M_IpAKeHnNYmM8sJ73b6-1" vertex="1">
-          <mxGeometry x="349" y="453" width="80" height="60" as="geometry" />
+          <mxGeometry x="349" y="440" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FzZquDVygX89G0tHvm6P-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="M_IpAKeHnNYmM8sJ73b6-1" source="M_IpAKeHnNYmM8sJ73b6-11" target="FzZquDVygX89G0tHvm6P-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
