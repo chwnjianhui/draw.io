@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T01:56:38.806Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="bQeZHUjW5RqX7MABKWqU" version="21.1.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-04-21T07:34:28.041Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jDNVM4bDCPMKYI0WKItx" version="21.1.9" type="github" pages="10">
   <diagram name="访客登记流程-整体流程" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2149" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2601" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -327,7 +327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lNtZs3D9O1DbTZZ7Itks" name="访客登记细化-管理平台登记">
-    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,35 +510,35 @@
     </mxGraphModel>
   </diagram>
   <diagram name="访客登记细化-小程序登记" id="KGpdJd9GQHaEE7OqFPoq">
-    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-0" />
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-1" parent="nBZuh7KVL-DdWW9Z5y6s-0" />
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-2" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="300" y="410" width="520" height="560" as="geometry" />
+          <mxGeometry x="300" y="685" width="520" height="560" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-12" target="nBZuh7KVL-DdWW9Z5y6s-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="185" as="sourcePoint" />
+            <mxPoint x="380" y="460" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="nBZuh7KVL-DdWW9Z5y6s-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-6" target="nBZuh7KVL-DdWW9Z5y6s-12">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="670" y="105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="piRRh-O1Bqk-X0EbtF_F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-6" target="piRRh-O1Bqk-X0EbtF_F-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-6" value="访客登记" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
           <mxGeometry x="320" y="35" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-11" target="nBZuh7KVL-DdWW9Z5y6s-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="175" as="targetPoint" />
+            <mxPoint x="490" y="450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="500" y="265" />
-              <mxPoint x="500" y="165" />
+              <mxPoint x="500" y="540" />
+              <mxPoint x="500" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -554,19 +554,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-11" value="必填校验，&lt;br&gt;长度校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="340" y="235" width="80" height="60" as="geometry" />
+          <mxGeometry x="340" y="510" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-12" value="访客信息填写" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="320" y="135" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="165" as="targetPoint" />
-            <mxPoint x="420" y="366" as="sourcePoint" />
+            <mxPoint x="430" y="440" as="targetPoint" />
+            <mxPoint x="420" y="641" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="420" y="365" />
-              <mxPoint x="500" y="365" />
-              <mxPoint x="500" y="165" />
+              <mxPoint x="420" y="640" />
+              <mxPoint x="500" y="640" />
+              <mxPoint x="500" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -577,30 +577,30 @@
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-16" target="nBZuh7KVL-DdWW9Z5y6s-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="490" as="targetPoint" />
+            <mxPoint x="380" y="765" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-16" value="对应被访人到访时间区间校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="340" y="336" width="80" height="60" as="geometry" />
+          <mxGeometry x="340" y="611" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-17" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.手机号&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;或身份证号二选其一&lt;br style=&quot;font-size: 14px;&quot;&gt;2.拜访原因&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="10" y="295" width="200" height="40" as="geometry" />
+          <mxGeometry x="10" y="570" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-20" target="nBZuh7KVL-DdWW9Z5y6s-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="475" as="targetPoint" />
+            <mxPoint x="180" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" target="nBZuh7KVL-DdWW9Z5y6s-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="1060" as="sourcePoint" />
+            <mxPoint x="380" y="1335" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-20" value="新增访客记录表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="320" y="1031" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1306" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-21" value="&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;要点说明:&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); background-color: initial;&quot; face=&quot;Verdana&quot;&gt;1.&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;访客记录表biz_visitor_record&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;新增记录&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2.到访状态-&amp;gt; 0:待签到&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;3.记录编号&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;规则毫秒时间+5位随机数字：2023010515550100166666&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;4.记录来源-&amp;gt; 0:管理平台登记&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;5.如有登记照片，需要同步更新访客图片表biz_visitor_image表，通过访客记录表visitor_image_id逻辑关联，image_type为0登记照片&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;6.修改审批状态，&lt;br&gt;免审：审核状态为已通过，审核人为空。&lt;br&gt;需审：审核状态为已通过/已拒绝，审批人为被访人，实际审批人根据【访客审批配置表】的审批者标识和审批人做判断。&lt;br&gt;7.修改签到状态为待签到。&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="20" y="760" width="200" height="115" as="geometry" />
+          <mxGeometry x="20" y="1035" width="200" height="115" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-24" target="nBZuh7KVL-DdWW9Z5y6s-26">
           <mxGeometry relative="1" as="geometry" />
@@ -609,22 +609,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-24" value="访客下发规则解析" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="320" y="1170" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1445" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-26" target="nBZuh7KVL-DdWW9Z5y6s-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-26" value="生成&lt;br&gt;访客登记命令" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="320" y="1284" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1559" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-27" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;登记方式：管理平台登记&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
           <mxGeometry x="630" y="104" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-28" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;3.记录来源-&amp;gt;管理平台登记" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="40" y="1300" width="200" height="110" as="geometry" />
+          <mxGeometry x="40" y="1575" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-29" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要下发的设备列表&lt;br&gt;2.记录来源是设备端登记，下发列表需剔除上传的那台设备&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="540" y="1220" width="200" height="40" as="geometry" />
+          <mxGeometry x="540" y="1495" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-34" target="nBZuh7KVL-DdWW9Z5y6s-20">
           <mxGeometry relative="1" as="geometry" />
@@ -636,9 +636,9 @@
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-34">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="690" as="targetPoint" />
+            <mxPoint x="580" y="965" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="590" />
+              <mxPoint x="580" y="865" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -648,21 +648,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-34" value="免审规则" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="340" y="560" width="80" height="60" as="geometry" />
+          <mxGeometry x="340" y="835" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-36" target="nBZuh7KVL-DdWW9Z5y6s-34">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="550" as="targetPoint" />
+            <mxPoint x="380" y="825" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-36" value="审批规则" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="320" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="725" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-40" target="nBZuh7KVL-DdWW9Z5y6s-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="1040" as="targetPoint" />
+            <mxPoint x="480" y="1315" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="1061" />
+              <mxPoint x="580" y="1336" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -675,25 +675,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-40" value="审核" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="540" y="690" width="80" height="60" as="geometry" />
+          <mxGeometry x="540" y="965" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-41" value="&lt;font face=&quot;Verdana&quot;&gt;免审规则：&lt;br&gt;在biz_visitor_audit_config表中&lt;br&gt;1.exempt_audit_switch免审开关是否打开&lt;br&gt;2.data_source免审类型为0：数据来源的，根据访客记录的数据来源字段进行判断&lt;br&gt;3.&lt;/font&gt;data_source&lt;span style=&quot;font-family: Verdana;&quot;&gt;免审类型为1：被访人的，根据访客记录的被访人员ID进行判断。&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="615" y="445" width="200" height="115" as="geometry" />
+          <mxGeometry x="615" y="720" width="200" height="115" as="geometry" />
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="nBZuh7KVL-DdWW9Z5y6s-34" target="nBZuh7KVL-DdWW9Z5y6s-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="513" as="targetPoint" />
-            <mxPoint x="340" y="1040" as="sourcePoint" />
+            <mxPoint x="220" y="788" as="targetPoint" />
+            <mxPoint x="340" y="1315" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nBZuh7KVL-DdWW9Z5y6s-43" value="更新审核状态，&lt;br&gt;及审核人&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;签到状态为空？&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
-          <mxGeometry x="680" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="965" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="piRRh-O1Bqk-X0EbtF_F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="piRRh-O1Bqk-X0EbtF_F-0" target="nBZuh7KVL-DdWW9Z5y6s-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piRRh-O1Bqk-X0EbtF_F-0" value="页面配置信息&lt;br&gt;动态渲染页面" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
+          <mxGeometry x="320" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="piRRh-O1Bqk-X0EbtF_F-3" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.手机号&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;或身份证号二选其一&lt;br style=&quot;font-size: 14px;&quot;&gt;2.拜访原因&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="nBZuh7KVL-DdWW9Z5y6s-1">
+          <mxGeometry x="20" y="300" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="piRRh-O1Bqk-X0EbtF_F-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="nBZuh7KVL-DdWW9Z5y6s-1" source="piRRh-O1Bqk-X0EbtF_F-0" target="piRRh-O1Bqk-X0EbtF_F-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="270" as="sourcePoint" />
+            <mxPoint x="160" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="访客登记细化-设备端登记" id="1r44WjgmV7XmMkoJbakX">
-    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-0" />
         <mxCell id="M_IpAKeHnNYmM8sJ73b6-1" parent="M_IpAKeHnNYmM8sJ73b6-0" />
@@ -894,7 +909,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5euMLLqUtjxTyva7Si0V" name="线下访客签到签离-整体流程">
-    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1022,7 +1037,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wIGBKG1-Yt2kmT2Xikpa" name="访客签到细化">
-    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1155,7 +1170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="访客签离细化" id="vyOVnNySR9xtnQIFuPsf">
-    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LqAC-8F5zJBBwA0m42m0-0" />
         <mxCell id="LqAC-8F5zJBBwA0m42m0-1" parent="LqAC-8F5zJBBwA0m42m0-0" />
@@ -1220,7 +1235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="访客记录自动过期细化-自动过期" id="stmCoH1ryweI3Sxo6oqc">
-    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BLZvggfuFe3nlRrdBsdE-0" />
         <mxCell id="BLZvggfuFe3nlRrdBsdE-1" parent="BLZvggfuFe3nlRrdBsdE-0" />
