@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T06:03:23.772Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JrbzygU3V7sYqnGr1Q3M" version="21.1.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-04-23T06:18:32.971Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="nM1137f-rcBVJ-EGoHxn" version="21.1.9" type="github" pages="12">
   <diagram id="fvCzONpYGmNhPrEY1OVa" name="小程序登录相关流程">
     <mxGraphModel dx="1876" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1085,8 +1085,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="5euMLLqUtjxTyva7Si0V" name="线下访客签到签离-整体流程">
-    <mxGraphModel dx="1289" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="5euMLLqUtjxTyva7Si0V" name="访客签到签离-整体流程">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1214,7 +1214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wIGBKG1-Yt2kmT2Xikpa" name="访客签到细化">
-    <mxGraphModel dx="1289" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
