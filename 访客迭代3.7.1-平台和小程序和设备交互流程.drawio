@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T06:02:36.267Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="AkvREhgrYwYlSxqgRGyz" version="21.1.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-04-23T06:03:23.772Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JrbzygU3V7sYqnGr1Q3M" version="21.1.9" type="github" pages="12">
   <diagram id="fvCzONpYGmNhPrEY1OVa" name="小程序登录相关流程">
     <mxGraphModel dx="1876" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,11 +8,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-1" value="用户登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="286" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="272" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="380" as="targetPoint" />
+            <mxPoint x="166" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-8" value="员工" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NOa671LLlfBA183an34n-7">
@@ -31,31 +31,31 @@
         <mxCell id="NOa671LLlfBA183an34n-52" value="不存在，&lt;br&gt;则作为新访客登录" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-2" target="NOa671LLlfBA183an34n-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="346" y="410" />
+              <mxPoint x="332" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-2" value="身份判断" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="306" y="260" width="80" height="50" as="geometry" />
+          <mxGeometry x="292" y="260" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NOa671LLlfBA183an34n-3" target="NOa671LLlfBA183an34n-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-3" value="获取&lt;br&gt;手机号和openid" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="286" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="272" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-6" value="说明：&lt;br&gt;1.优先筛查biz_person_webchat表，判断是否员工&lt;br&gt;2.不是员工，再筛查biz_visitor表，&lt;br&gt;判断是否访客&lt;br&gt;3.不是员工也不是访客，则作为新访客登录，新增访客信息biz_visitor表" style="text;html=1;strokeColor=none;fillColor=none;spacing=1;spacingTop=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="90" width="190" height="120" as="geometry" />
+          <mxGeometry x="606" y="90" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-2" target="NOa671LLlfBA183an34n-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="290" as="sourcePoint" />
-            <mxPoint x="560" y="240" as="targetPoint" />
+            <mxPoint x="496" y="290" as="sourcePoint" />
+            <mxPoint x="546" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-12" target="NOa671LLlfBA183an34n-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="520" as="targetPoint" />
+            <mxPoint x="76" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NOa671LLlfBA183an34n-14">
@@ -67,29 +67,29 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-12" value="是否&lt;br&gt;已绑定" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="380" width="80" height="50" as="geometry" />
+          <mxGeometry x="126" y="380" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-25" value="需认证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NOa671LLlfBA183an34n-13" target="NOa671LLlfBA183an34n-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-13" value="根据员工认证&lt;br&gt;配置渲染页面" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="106" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-21" value="说明：&lt;br&gt;1.筛查biz_person_webchat和biz_person关联信息&lt;br&gt;2." style="text;html=1;strokeColor=none;fillColor=none;spacing=1;spacingTop=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="535" width="150" height="100" as="geometry" />
+          <mxGeometry x="-244" y="535" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-24" target="NOa671LLlfBA183an34n-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="565" as="sourcePoint" />
-            <mxPoint x="10" y="470" as="targetPoint" />
+            <mxPoint x="6" y="565" as="sourcePoint" />
+            <mxPoint x="-4" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-24" target="NOa671LLlfBA183an34n-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="770" />
-              <mxPoint x="-60" y="770" />
-              <mxPoint x="-60" y="90" />
+              <mxPoint x="166" y="770" />
+              <mxPoint x="-74" y="770" />
+              <mxPoint x="-74" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -107,13 +107,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-24" value="认证" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="640" width="80" height="50" as="geometry" />
+          <mxGeometry x="126" y="640" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-27" target="NOa671LLlfBA183an34n-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="410" />
-              <mxPoint x="580" y="90" />
+              <mxPoint x="566" y="410" />
+              <mxPoint x="566" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -123,12 +123,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-27" value="访客身份" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="426" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-39" target="NOa671LLlfBA183an34n-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="20" y="90" />
+              <mxPoint x="6" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -138,40 +138,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-39" value="员工身份" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="380" width="100" height="50" as="geometry" />
+          <mxGeometry x="-44" y="380" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-48" value="说明：&lt;br&gt;1.biz_page_config表配置信息" style="text;html=1;strokeColor=none;fillColor=none;spacing=1;spacingTop=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="367" width="150" height="70" as="geometry" />
+          <mxGeometry x="-244" y="367" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-49" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-13" target="NOa671LLlfBA183an34n-48">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="553" as="sourcePoint" />
-            <mxPoint x="-80" y="440" as="targetPoint" />
+            <mxPoint x="136" y="553" as="sourcePoint" />
+            <mxPoint x="-94" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-50" value="说明：&lt;br&gt;1.筛查biz_person_webchat&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=1;spacingTop=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="220" width="150" height="60" as="geometry" />
+          <mxGeometry x="-244" y="220" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-51" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-12" target="NOa671LLlfBA183an34n-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="130" y="340" as="sourcePoint" />
-            <mxPoint x="-80" y="210" as="targetPoint" />
+            <mxPoint x="116" y="340" as="sourcePoint" />
+            <mxPoint x="-94" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-53" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-27" target="NOa671LLlfBA183an34n-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="573" as="sourcePoint" />
-            <mxPoint x="640" y="520" as="targetPoint" />
+            <mxPoint x="366" y="573" as="sourcePoint" />
+            <mxPoint x="626" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NOa671LLlfBA183an34n-54" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOa671LLlfBA183an34n-39" target="NOa671LLlfBA183an34n-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="556" y="432" as="sourcePoint" />
-            <mxPoint x="640" y="540" as="targetPoint" />
+            <mxPoint x="542" y="432" as="sourcePoint" />
+            <mxPoint x="626" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOa671LLlfBA183an34n-55" value="说明：&lt;br&gt;1.登录成功的用户，返回令牌token，供登录后接口头部携带鉴权。&lt;br&gt;2.在平台需管理在线用户信息及用户角色。&lt;br&gt;3.对应个人中心-用户退出功能，需从在线用户列表中剔除。" style="text;html=1;strokeColor=none;fillColor=none;spacing=1;spacingTop=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="460" width="190" height="120" as="geometry" />
+        <mxCell id="NOa671LLlfBA183an34n-55" value="说明：&lt;br&gt;1.登录成功的用户，返回令牌token，供登录后接口头部携带鉴权。&lt;br&gt;2.在平台redis中需管理在线用户信息及用户角色。&lt;br&gt;3.对应个人中心-用户退出功能，需从在线用户列表中剔除。" style="text;html=1;strokeColor=none;fillColor=none;spacing=1;spacingTop=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="616" y="460" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
