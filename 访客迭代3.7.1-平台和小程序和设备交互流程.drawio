@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T03:56:03.458Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="t7nPzrmw1Q2rD8VtGwZz" version="21.2.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-04-24T05:46:30.334Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="27-JwcPjyq0o5iaURNjs" version="21.2.1" type="github" pages="12">
   <diagram id="fvCzONpYGmNhPrEY1OVa" name="小程序登录相关流程">
     <mxGraphModel dx="1876" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1524,7 +1524,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CK8Rs1-qKYeLk28E73_w" name="新增访客设备-有效访客记录下发">
-    <mxGraphModel dx="1289" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1549,7 +1549,7 @@
         <mxCell id="AIFBTcJrZEqqxCv9jQW2-18" value="查找有效&lt;br&gt;访客记录" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="420" y="205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AIFBTcJrZEqqxCv9jQW2-19" value="&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;要点说明:&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;查找未完结的访客记录。&lt;br&gt;到访状态为 0：待签到，1：已签到&lt;br&gt;审核通过的&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="AIFBTcJrZEqqxCv9jQW2-19" value="&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;要点说明:&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;查找未完结的访客记录。&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;到访状态为 0：待签到，1：已签到&lt;br&gt;审核状态为审核通过的&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="110" y="225" width="200" height="115" as="geometry" />
         </mxCell>
         <mxCell id="AIFBTcJrZEqqxCv9jQW2-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="AIFBTcJrZEqqxCv9jQW2-24" target="AIFBTcJrZEqqxCv9jQW2-26" edge="1">
