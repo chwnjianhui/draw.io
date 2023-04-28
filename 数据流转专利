@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T02:49:00.581Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="HBjjrN5F468ON-3a21m9" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T03:04:08.872Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ZbPj10mdFHIXNqhx9AWm" version="21.2.1" type="github">
   <diagram name="第 1 页" id="FlmgPeyKOEPRYaDhHy03">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,11 +46,20 @@
             <mxPoint x="230" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d4GBmVF9MsrGU1ybDOmr-18" value="数据流转引擎" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
+        <mxCell id="d4GBmVF9MsrGU1ybDOmr-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d4GBmVF9MsrGU1ybDOmr-18" target="d4GBmVF9MsrGU1ybDOmr-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d4GBmVF9MsrGU1ybDOmr-19" value="阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="600" width="80" height="50" as="geometry" />
+        <mxCell id="d4GBmVF9MsrGU1ybDOmr-18" value="获取数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4GBmVF9MsrGU1ybDOmr-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d4GBmVF9MsrGU1ybDOmr-19" target="d4GBmVF9MsrGU1ybDOmr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4GBmVF9MsrGU1ybDOmr-19" value="获取" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="640" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d4GBmVF9MsrGU1ybDOmr-24" value="数据枢纽" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
