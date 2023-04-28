@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T05:44:11.411Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="G8YMwGsY4e2vTLHN9xLr" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T05:46:48.421Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zbHIRm0_m9QEx5TqRbZX" version="21.2.1" type="github">
   <diagram name="第 1 页" id="FlmgPeyKOEPRYaDhHy03">
     <mxGraphModel dx="1049" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
         <mxCell id="d4GBmVF9MsrGU1ybDOmr-39" value="装载引擎" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="368" y="1169" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d4GBmVF9MsrGU1ybDOmr-51" value="成功，&lt;br&gt;枢纽清理" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d4GBmVF9MsrGU1ybDOmr-50" target="d4GBmVF9MsrGU1ybDOmr-24">
+        <mxCell id="d4GBmVF9MsrGU1ybDOmr-51" value="成功，&lt;br&gt;清理相应&lt;br&gt;枢纽数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d4GBmVF9MsrGU1ybDOmr-50" target="d4GBmVF9MsrGU1ybDOmr-24">
           <mxGeometry x="-0.0879" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -114,7 +114,7 @@
             <mxPoint x="750" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d4GBmVF9MsrGU1ybDOmr-55" value="成功，&lt;br&gt;仓库清理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d4GBmVF9MsrGU1ybDOmr-53">
+        <mxCell id="d4GBmVF9MsrGU1ybDOmr-55" value="成功，&lt;br&gt;清理相应&lt;br&gt;仓库数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d4GBmVF9MsrGU1ybDOmr-53">
           <mxGeometry x="0.3" relative="1" as="geometry">
             <mxPoint y="-59" as="offset" />
           </mxGeometry>
@@ -129,7 +129,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d4GBmVF9MsrGU1ybDOmr-59" value="&lt;h1 style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1.阈值规则&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.优先级规则&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1179" width="100" height="40" as="geometry" />
+          <mxGeometry x="160" y="1130" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
