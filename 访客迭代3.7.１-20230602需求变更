@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T03:50:12.007Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="6YQ1Ef4ALmydPJSFtuyr" version="21.3.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-06-07T03:52:52.910Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="JzffSx82RHcCQppU9EzA" version="21.3.7" type="github" pages="12">
   <diagram id="fvCzONpYGmNhPrEY1OVa" name="小程序登录相关流程">
     <mxGraphModel dx="1876" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1477,8 +1477,8 @@
             <mxPoint x="500" y="445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1hNUNycuihJS1YNrwq8L-2" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;更新访客记录表状态，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.到访状态为 &lt;font color=&quot;#ff0000&quot;&gt;未签到或已签到的&lt;/font&gt;，&lt;br&gt;到访时间范围外》 已过期&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="BLZvggfuFe3nlRrdBsdE-1" vertex="1">
-          <mxGeometry x="490" y="445" width="290" height="40" as="geometry" />
+        <mxCell id="1hNUNycuihJS1YNrwq8L-2" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;更新访客记录表状态，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.到访状态为 &lt;font color=&quot;#ff0000&quot;&gt;未签到或已签到的&lt;/font&gt;，&lt;br&gt;到访时间范围外》 已过期&lt;br&gt;&lt;font color=&quot;#007FFF&quot;&gt;２.审核状态为待审核，&lt;br&gt;到访时间范围外》已失效&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="BLZvggfuFe3nlRrdBsdE-1" vertex="1">
+          <mxGeometry x="490" y="445" width="290" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
