@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T03:45:53.598Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="mDdVoz6ihXEwmcIx7p4X" version="21.3.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-06-07T03:49:22.594Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="mV_V086jlekbtriA1Ils" version="21.3.7" type="github" pages="12">
   <diagram id="fvCzONpYGmNhPrEY1OVa" name="小程序登录相关流程">
     <mxGraphModel dx="1876" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1267,7 +1267,7 @@
         <mxCell id="yUlekqLJNdB78lc89NQ1-26" value="&lt;font face=&quot;Verdana&quot;&gt;命令字段要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.signin&lt;br&gt;&lt;/font&gt;2.记录编号" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="60" y="940" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="yUlekqLJNdB78lc89NQ1-27" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要同步数据的设备列表&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;2.除了本设备外的其他设备&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007FFF&quot;&gt;3.仅有登记照片的记录才下发&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="yUlekqLJNdB78lc89NQ1-27" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要同步数据的设备列表&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;2.除了本设备外的其他设备&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="530" y="770" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J_jM9WKq9pCsuS526128-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="yUlekqLJNdB78lc89NQ1-18" target="J_jM9WKq9pCsuS526128-2" edge="1">
@@ -1341,6 +1341,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="587" as="targetPoint" />
             <mxPoint x="463" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2lfgg5UdqyZoaJoB-ZV-1" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;strokeColor=#0066CC;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="700" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="J2lfgg5UdqyZoaJoB-ZV-2" value="&lt;font color=&quot;#007FFF&quot;&gt;设备与平台交互变更为联网模式，&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#007FFF&quot;&gt;签到数据取消下发。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007FFF&quot;&gt;设备通过查询接口查询&lt;/font&gt;。&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="940" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J2lfgg5UdqyZoaJoB-ZV-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.004;exitY=0.678;exitDx=0;exitDy=0;fontSize=14;exitPerimeter=0;" edge="1" parent="1" source="J2lfgg5UdqyZoaJoB-ZV-1" target="J2lfgg5UdqyZoaJoB-ZV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="965" as="targetPoint" />
+            <mxPoint x="330" y="910" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
