@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T03:44:37.368Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="7cljrhz7emyjBh1gOlzv" version="21.3.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-06-07T03:45:53.598Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="mDdVoz6ihXEwmcIx7p4X" version="21.3.7" type="github" pages="12">
   <diagram id="fvCzONpYGmNhPrEY1OVa" name="小程序登录相关流程">
     <mxGraphModel dx="1876" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1214,7 +1214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wIGBKG1-Yt2kmT2Xikpa" name="访客签到细化">
-    <mxGraphModel dx="1049" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1254,7 +1254,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yUlekqLJNdB78lc89NQ1-22" value="访客下发&lt;br&gt;规则解析" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="310" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yUlekqLJNdB78lc89NQ1-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="yUlekqLJNdB78lc89NQ1-24" target="yUlekqLJNdB78lc89NQ1-26" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1262,13 +1262,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yUlekqLJNdB78lc89NQ1-24" value="生成签到命令" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="310" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yUlekqLJNdB78lc89NQ1-26" value="&lt;font face=&quot;Verdana&quot;&gt;命令字段要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.signin&lt;br&gt;&lt;/font&gt;2.记录编号" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="60" y="940" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="yUlekqLJNdB78lc89NQ1-27" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要同步数据的设备列表&lt;br&gt;2.除了本设备外的其他设备&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="530" y="730" width="200" height="40" as="geometry" />
+        <mxCell id="yUlekqLJNdB78lc89NQ1-27" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要同步数据的设备列表&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;2.除了本设备外的其他设备&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007FFF&quot;&gt;3.仅有登记照片的记录才下发&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="530" y="770" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J_jM9WKq9pCsuS526128-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="yUlekqLJNdB78lc89NQ1-18" target="J_jM9WKq9pCsuS526128-2" edge="1">
           <mxGeometry relative="1" as="geometry">
