@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T03:53:24.906Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="cR3SmDfQxbKoGb6AKltu" version="21.3.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-06-08T01:14:20.610Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" etag="kvcPDLJx4E_GB8r684wE" version="21.3.7" type="github" pages="12">
   <diagram id="fvCzONpYGmNhPrEY1OVa" name="小程序登录相关流程">
     <mxGraphModel dx="1876" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -614,11 +614,11 @@
         <mxCell id="J5C4p3FA8g_natvKvLbQ-5" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;登记方式：小程序登记&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="630" y="104" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VZUX2Y9e9vC_aqdc_6QJ-1" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;&lt;div&gt;3.记录来源-&amp;gt;小程序登记&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007FFF&quot;&gt;4.仅有登记照片的记录才下发&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="VZUX2Y9e9vC_aqdc_6QJ-1" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt; cmd.data.visitor.register&lt;br&gt;&lt;/font&gt;2.记录编号&lt;br&gt;毫秒时间+5位随机数字：2023010515550100166666&lt;br&gt;&lt;div&gt;3.记录来源-&amp;gt;小程序登记&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="40" y="1300" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="JNcjmXi-jqfRWwexeuY7-1" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要下发的设备列表&lt;br&gt;2.记录来源是设备端登记，下发列表需剔除上传的那台设备&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="540" y="1220" width="200" height="40" as="geometry" />
+        <mxCell id="JNcjmXi-jqfRWwexeuY7-1" value="&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;1.根据访客记录和设备关系表，筛选出需要下发的设备列表&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;2.记录来源是设备端登记，下发列表需剔除上传的那台设备&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#007FFF&quot;&gt;3.仅有登记照片的记录才下发&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-family: Verdana; font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="540" y="1230" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3IK_QB_cwPgIFFeRx66g-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3IK_QB_cwPgIFFeRx66g-1" target="HPnDQvklnpv9tH-5DLQT-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
