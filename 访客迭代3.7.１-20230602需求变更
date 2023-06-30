@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T06:00:48.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kyMYmOBU-zJynjUEpfX5" version="21.5.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-06-30T06:02:53.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GwASeJjMj1xR2Gs0FVr2" version="21.5.1" type="github" pages="12">
   <diagram id="fvCzONpYGmNhPrEY1OVa" name="小程序登录相关流程">
     <mxGraphModel dx="1941" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1582,7 +1582,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CK8Rs1-qKYeLk28E73_w" name="新增访客设备-有效访客记录下发">
-    <mxGraphModel dx="1049" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1618,6 +1618,9 @@
         </mxCell>
         <mxCell id="AIFBTcJrZEqqxCv9jQW2-26" value="&lt;font face=&quot;Verdana&quot;&gt;命令数据要点说明:&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Verdana&quot;&gt;1.funId-&amp;gt;&lt;/font&gt;&lt;font face=&quot;Verdana&quot;&gt;cmd.data.device.add.visitor.info&lt;br&gt;&lt;/font&gt;2.需要带访客状态属性&lt;br&gt;详见jira ，技术文档-管理平台对接设备接口文档" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="110" y="420" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="X6BNKidAg_u5yyoVHLNo-1" value="&lt;font color=&quot;#007FFF&quot;&gt;设备与平台交互变更为联网模式，&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#007fff&quot;&gt;此操作无需再生成命令&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
