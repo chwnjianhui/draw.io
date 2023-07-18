@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T09:42:07.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="38nq0btEG5QGUAKhh9jN" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-18T09:55:48.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UJtLnno-kMuFlud4UkIH" version="21.5.2" type="github">
   <diagram name="第 1 页" id="6TORa4WfbZdlpf9BWujo">
     <mxGraphModel dx="1833" dy="1669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,6 +91,9 @@
         </mxCell>
         <mxCell id="bPtCinkJhJzMf3UxD4sr-34" value="&lt;h1&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;生产&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;生产打包，是在测试或演示环境下，测试人员确认测试完结后，由研发打tag触发正式打包流程。&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-80" y="70" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bPtCinkJhJzMf3UxD4sr-35" value="&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;tag说明&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;1.每次打tag表示正式发包，需要有版本发行，交付测试，需要有每个tag的修复问题说明。&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;2.版本号说明，例如：3.7.5 为迭代大版本，如果在此版本上有阶段性修复，需要增加第四位小版本，例如3.7.5.1 。&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="800" width="450" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
