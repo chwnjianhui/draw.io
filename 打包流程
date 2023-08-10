@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T08:28:03.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YLPOTCw7OdmTJZCxiX2N" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T08:31:15.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="WwaO58LfZT7hnppsxpFV" version="21.6.6" type="github">
   <diagram name="第 1 页" id="6TORa4WfbZdlpf9BWujo">
     <mxGraphModel dx="1833" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,8 +113,8 @@
         <mxCell id="9x1KJPsedDNRET7Azd09-11" value="测试" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-180" y="1090" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9x1KJPsedDNRET7Azd09-12" value="&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;小版本问题修复移交流程&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; text-align: center;&quot;&gt;&lt;b&gt;修复输出到FTP: &lt;/b&gt;以3.7.5为例，每次修复交付到测试，3.7.5.&lt;font color=&quot;#ff3333&quot;&gt;x&lt;/font&gt;，x为小版本号，每次修复会有3.7.5.x的新包及更新说明输出。&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="1260" width="450" height="160" as="geometry" />
+        <mxCell id="9x1KJPsedDNRET7Azd09-12" value="&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;小版本问题修复移交流程&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; text-align: center;&quot;&gt;&lt;b&gt;修复输出到FTP: &lt;/b&gt;以3.7.5为例，每次修复交付到测试，3.7.5.&lt;font color=&quot;#ff3333&quot;&gt;x&lt;/font&gt;，x为小版本号，每次修复会有3.7.5.x的新包及更新说明输出。&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 18px; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px; text-align: center;&quot;&gt;&lt;b&gt;统一的下载网址：&lt;/b&gt;&amp;nbsp;统一的地方下载，小版本有更新再后台替换下载文件。设备安装包apk或管理系统更新后，大家获取的都是最新的版本。&lt;/span&gt;&lt;span style=&quot;font-size: 18px; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1260" width="600" height="380" as="geometry" />
         </mxCell>
         <mxCell id="9x1KJPsedDNRET7Azd09-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9x1KJPsedDNRET7Azd09-13" target="9x1KJPsedDNRET7Azd09-6">
           <mxGeometry relative="1" as="geometry" />
