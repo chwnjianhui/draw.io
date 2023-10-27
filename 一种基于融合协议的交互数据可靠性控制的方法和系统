@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T07:17:13.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="gWvSihQDWOzQtM_6ZWuP" version="22.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T07:57:05.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="rQO59YZeeUex83giiyoS" version="22.0.7" type="github">
   <diagram name="第 1 页" id="Khual_kkHkxT_fSU9cTL">
     <mxGraphModel dx="1006" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
             <mxPoint x="-10" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3ulZ3FUqILw4kcNqSoSf-17" value="Non-relational&amp;nbsp;&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="3ulZ3FUqILw4kcNqSoSf-17" value="Non-Relational&amp;nbsp;&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="505" y="987.25" width="58" height="72" as="geometry" />
         </mxCell>
         <mxCell id="3ulZ3FUqILw4kcNqSoSf-27" value="push data from cache" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ulZ3FUqILw4kcNqSoSf-22" target="3ulZ3FUqILw4kcNqSoSf-13">
@@ -204,16 +204,39 @@
         <mxCell id="3ulZ3FUqILw4kcNqSoSf-30" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="37" y="1209" width="33" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="3ulZ3FUqILw4kcNqSoSf-37" value="change data flag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ulZ3FUqILw4kcNqSoSf-34" target="3ulZ3FUqILw4kcNqSoSf-36">
-          <mxGeometry x="0.0078" y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="3ulZ3FUqILw4kcNqSoSf-37" value="change&lt;br&gt;&amp;nbsp;data flag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ulZ3FUqILw4kcNqSoSf-34" target="3ulZ3FUqILw4kcNqSoSf-36">
+          <mxGeometry x="-0.0092" y="18" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3ulZ3FUqILw4kcNqSoSf-34" value="S" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="228" y="1209" width="33" height="33" as="geometry" />
+          <mxGeometry x="222" y="1209" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="3ulZ3FUqILw4kcNqSoSf-40" value="data&lt;br&gt;archive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ulZ3FUqILw4kcNqSoSf-36" target="3ulZ3FUqILw4kcNqSoSf-39">
+          <mxGeometry x="-0.082" y="17" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3ulZ3FUqILw4kcNqSoSf-36" value="Relational&amp;nbsp;&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1189.5" width="58" height="72" as="geometry" />
+          <mxGeometry x="339" y="1189.5" width="58" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="3ulZ3FUqILw4kcNqSoSf-39" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="1195.5" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ulZ3FUqILw4kcNqSoSf-41" value="NRDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="482" y="1200" width="48" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="3ulZ3FUqILw4kcNqSoSf-42" value="&amp;nbsp;Archive&amp;nbsp;&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="544" y="1200" width="48" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="3ulZ3FUqILw4kcNqSoSf-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3ulZ3FUqILw4kcNqSoSf-41" target="3ulZ3FUqILw4kcNqSoSf-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ulZ3FUqILw4kcNqSoSf-46" value="Distribute data：" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="111" y="961.75" width="97" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3ulZ3FUqILw4kcNqSoSf-47" value="Data confirmation：" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1132" width="117" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
