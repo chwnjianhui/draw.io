@@ -55,8 +55,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jDIW_Ac9E71avSsK1SP-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3jDIW_Ac9E71avSsK1SP-6" target="3jDIW_Ac9E71avSsK1SP-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3jDIW_Ac9E71avSsK1SP-91" value="public url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3jDIW_Ac9E71avSsK1SP-79">
+          <mxGeometry x="0.04" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3jDIW_Ac9E71avSsK1SP-6" value="DMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="70" width="80" height="80" as="geometry" />
@@ -274,13 +276,10 @@
             <mxPoint x="590" y="285" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jDIW_Ac9E71avSsK1SP-87" value="&lt;div&gt;get encrpted photo&lt;br&gt;&amp;nbsp;by public url&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3jDIW_Ac9E71avSsK1SP-85">
+        <mxCell id="3jDIW_Ac9E71avSsK1SP-87" value="&lt;div&gt;12.get encrpted photo&lt;br&gt;&amp;nbsp;by public url&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3jDIW_Ac9E71avSsK1SP-85">
           <mxGeometry x="0.0571" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="3jDIW_Ac9E71avSsK1SP-88" value="&lt;div&gt;get encrpted photo&lt;br&gt;&amp;nbsp;by public url&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="549.9953226412283" y="179.99798831254864" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
