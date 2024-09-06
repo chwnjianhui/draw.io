@@ -49,18 +49,19 @@
         <mxCell id="3jDIW_Ac9E71avSsK1SP-2" value="CMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="240" width="80" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3jDIW_Ac9E71avSsK1SP-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.013;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3jDIW_Ac9E71avSsK1SP-6" target="3jDIW_Ac9E71avSsK1SP-8">
+        <mxCell id="3jDIW_Ac9E71avSsK1SP-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="3jDIW_Ac9E71avSsK1SP-6" target="3jDIW_Ac9E71avSsK1SP-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="531" y="130" />
+              <mxPoint x="570" y="130" />
+              <mxPoint x="570" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3jDIW_Ac9E71avSsK1SP-6" value="DMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="70" width="80" height="80" as="geometry" />
+          <mxGeometry x="490" y="70" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3jDIW_Ac9E71avSsK1SP-8" value="Device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="609" y="70" width="80" height="80" as="geometry" />
+          <mxGeometry x="710" y="70" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3jDIW_Ac9E71avSsK1SP-10" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="490" y="230" width="100" height="110" as="geometry" />
@@ -247,14 +248,11 @@
         <mxCell id="3jDIW_Ac9E71avSsK1SP-77" value="&lt;div style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;encrypted&lt;/div&gt;&lt;div style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;photo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="700" y="702" width="80" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="3jDIW_Ac9E71avSsK1SP-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.013;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="3jDIW_Ac9E71avSsK1SP-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="3jDIW_Ac9E71avSsK1SP-6" target="3jDIW_Ac9E71avSsK1SP-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="531" y="91" as="sourcePoint" />
-            <mxPoint x="609" y="91" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="580" y="91" />
-              <mxPoint x="580" y="91" />
-            </Array>
+            <mxPoint x="570" y="90" as="sourcePoint" />
+            <mxPoint x="700" y="90" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
