@@ -170,7 +170,7 @@
         <mxCell id="x8_zIWEr0Os6dgOsjDuw-18" value="device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
           <mxGeometry x="531" y="329.9971428571428" width="80" height="47.61904761904762" as="geometry" />
         </mxCell>
-        <mxCell id="6DLxAd403A4_ISGpKQ0s-1" value="流程概览" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
+        <mxCell id="6DLxAd403A4_ISGpKQ0s-1" value="场景概览" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
           <mxGeometry width="60" height="35.714285714285715" as="geometry" />
         </mxCell>
         <mxCell id="6DLxAd403A4_ISGpKQ0s-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="6DLxAd403A4_ISGpKQ0s-7" source="6DLxAd403A4_ISGpKQ0s-3" target="6DLxAd403A4_ISGpKQ0s-4">
