@@ -173,7 +173,7 @@
         <mxCell id="6DLxAd403A4_ISGpKQ0s-1" value="流程概览" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6DLxAd403A4_ISGpKQ0s-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6DLxAd403A4_ISGpKQ0s-7" source="6DLxAd403A4_ISGpKQ0s-3" target="6DLxAd403A4_ISGpKQ0s-4">
+        <mxCell id="6DLxAd403A4_ISGpKQ0s-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="6DLxAd403A4_ISGpKQ0s-7" source="6DLxAd403A4_ISGpKQ0s-3" target="6DLxAd403A4_ISGpKQ0s-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6DLxAd403A4_ISGpKQ0s-3" value="客户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
@@ -183,9 +183,9 @@
           <mxGeometry x="230" y="70" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6DLxAd403A4_ISGpKQ0s-8" value="平台&lt;br&gt;（auth服务）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
-          <mxGeometry x="230" y="140" width="80" height="40" as="geometry" />
+          <mxGeometry x="230" y="145" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6DLxAd403A4_ISGpKQ0s-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6DLxAd403A4_ISGpKQ0s-7" source="6DLxAd403A4_ISGpKQ0s-10" target="6DLxAd403A4_ISGpKQ0s-8">
+        <mxCell id="6DLxAd403A4_ISGpKQ0s-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=0;" edge="1" parent="6DLxAd403A4_ISGpKQ0s-7" source="6DLxAd403A4_ISGpKQ0s-10" target="6DLxAd403A4_ISGpKQ0s-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6DLxAd403A4_ISGpKQ0s-13" value="token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6DLxAd403A4_ISGpKQ0s-12">
@@ -194,7 +194,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6DLxAd403A4_ISGpKQ0s-10" value="客户/业务侧服务/内部服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
-          <mxGeometry x="70" y="140" width="80" height="40" as="geometry" />
+          <mxGeometry x="70" y="145" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6DLxAd403A4_ISGpKQ0s-15" value="目前服务调用都需要到平台auth获取token才能使用&lt;br&gt;平台token分为clientToken、userToken、companyToken" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
+          <mxGeometry x="380" y="145" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DLxAd403A4_ISGpKQ0s-16" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;设备上基础数据上送到平台基础服务&lt;br&gt;人员、组织、公司等；&lt;div&gt;设备和事件类数据，上送到设备相关服务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
+          <mxGeometry x="460" y="235" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DLxAd403A4_ISGpKQ0s-17" value="最初在开发者中心创建应用，客户持有clientId和secret进行业务开发" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6DLxAd403A4_ISGpKQ0s-7">
+          <mxGeometry x="360" y="70" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
