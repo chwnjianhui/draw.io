@@ -89,7 +89,7 @@
           <mxGeometry x="200.0027305605787" y="59.99538461538464" width="71.86546112115732" height="44.11538461538462" as="geometry" />
         </mxCell>
         <mxCell id="RfGJbgL4CRtYobNIMYtS-63" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;push: http&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;best: http、websocket、mqtt&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal; font-size: 12px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;miot: mqtt&lt;br&gt;&lt;br&gt;其他: sip&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="RfGJbgL4CRtYobNIMYtS-56">
-          <mxGeometry x="300" y="30" width="200" height="120" as="geometry" />
+          <mxGeometry x="300" y="22" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RfGJbgL4CRtYobNIMYtS-64" value="armature" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="90" y="820" width="580" height="180" as="geometry" />
