@@ -1,9 +1,978 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6" pages="2">
   <diagram name="第 1 页" id="9-DSKHzaisEFRr8mGshw">
-    <mxGraphModel>
+    <mxGraphModel dx="1025" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="1310" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-3" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-5" value="dbs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="831" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-7" value="dms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="290" as="sourcePoint" />
+            <mxPoint x="420" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-10" value="1.bind device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="830" as="targetPoint" />
+            <mxPoint x="730" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-12" value="sip" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="290" as="sourcePoint" />
+            <mxPoint x="220" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-14" value="2.init" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="380" as="sourcePoint" />
+            <mxPoint x="620" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-16" value="3.发送设备参数，sipOn=1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="340" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="440" as="sourcePoint" />
+            <mxPoint x="840" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-18" value="4.创建sip账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="490" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-20" value="5.返回sip账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="500" as="sourcePoint" />
+            <mxPoint x="420" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-22" value="6.更新sip账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="1310" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-24" value="Best 门禁设备通过sip初始化账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="500" as="sourcePoint" />
+            <mxPoint x="220" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-27" value="application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="600" as="sourcePoint" />
+            <mxPoint x="840" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-29" value="1.init sip account" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="650" as="sourcePoint" />
+            <mxPoint x="1100" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-31" value="2.返回sip 账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-32" value="客户端（App）设备通过sip初始化账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="100" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-34" value="dms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="995" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-36" value="生产系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="995" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-38" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="995" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-39" value="1.设备出厂时预注册提供（sn、model、protocolType、deviceType、TUTK UID）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1090" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1140" as="sourcePoint" />
+            <mxPoint x="540" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="1220" as="sourcePoint" />
+            <mxPoint x="240" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-42" value="2.deviceId、secretKey【设备链接miot broker 使用】" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-43" value="3.参数写入设备中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="1360" as="sourcePoint" />
+            <mxPoint x="850" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-45" value="4.bind device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1320" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="1430" as="sourcePoint" />
+            <mxPoint x="550" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-47" value="5.设备初始化时,当p2pOn=1时创建p2p账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-48" value="Best 门禁设备初始化p2p 账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="940" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-50" value="application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="995" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-51" value="3.send sip contact to dms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="690" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="760" as="sourcePoint" />
+            <mxPoint x="420" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-53" value="4.update sip contact to dbs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="710" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="780" as="sourcePoint" />
+            <mxPoint x="220" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-55" value="5.update sip contact to device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="730" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-56" value="7.更新sip账号到设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-57" value="添加可视对讲设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-58" value="添加设备，需要提供账号，密码" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1080" width="440" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-60" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;tutk uid&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-61" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;p2p通信需要传递参数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1100" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-62" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;门禁机admin+设备安全码&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-63" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;authkey 验证码&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1710" width="1310" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="2330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-66" value="dms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="2330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-68" value="application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-69" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1115" y="1890" as="sourcePoint" />
+            <mxPoint x="1115" y="1950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="985" y="1890" />
+              <mxPoint x="985" y="1950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="2330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-71" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-72" value="1.初始化p2p账号(生成推送凭证)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="995" y="1900" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-73" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1115" y="2000" as="sourcePoint" />
+            <mxPoint x="815" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-74" value="2.send p2p contact to dms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1960" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-75" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="1310" as="sourcePoint" />
+            <mxPoint x="550" y="1310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="2330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-77" value="aws" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="2020" as="sourcePoint" />
+            <mxPoint x="530" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-79" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="2040" as="sourcePoint" />
+            <mxPoint x="265" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-80" value="2.send p2p contact to aws(Miot)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1980" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-81" value="2.send p2p contact to device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2000" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-82" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="290" as="sourcePoint" />
+            <mxPoint x="620" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-83" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="730" as="sourcePoint" />
+            <mxPoint x="620" y="730" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-84" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1280" as="sourcePoint" />
+            <mxPoint x="850" y="1280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-85" value="客户端更新p2p账号到设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1724" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-86" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2390" width="1310" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-88" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-89" value="dms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-91" value="sip" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-92" value="application,device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.714;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-92" target="DE0nwYbpklcDqV-RwNJl-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-94" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="2610" as="sourcePoint" />
+            <mxPoint x="790" y="2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-95" value="1.获取设备sip账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-96" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="2720" as="sourcePoint" />
+            <mxPoint x="550" y="2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-97" value="2.调起linphone sdk 进行设备sip 通信" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2680" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-98" value="3.设备通过通讯录信息以sip方式拨打客户端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="2790" width="127.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="2670" as="sourcePoint" />
+            <mxPoint x="1060" y="2670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-100" value="返回设备sip账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-102" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2720" as="sourcePoint" />
+            <mxPoint x="270" y="2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-103" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="547" y="2830" as="sourcePoint" />
+            <mxPoint x="1060" y="2830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-104" value="4.推送FCM,APNS,友盟信息到客户端，并调起sip通信" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="632.5" y="2790" width="127.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-105" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="2830" as="sourcePoint" />
+            <mxPoint x="540" y="2830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-106" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3140" width="1320" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-107" value="sip 服务的可视对讲流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2430" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-108" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="3210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-109" value="p2p (tutk)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="3210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-110" value="dms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="3730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-112" value="application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="3210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-110" target="DE0nwYbpklcDqV-RwNJl-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.31;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-109" target="DE0nwYbpklcDqV-RwNJl-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.121;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-108" target="DE0nwYbpklcDqV-RwNJl-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-116" value="p2p 服务的可视化流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="3150" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-117" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="3320" as="sourcePoint" />
+            <mxPoint x="790" y="3320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-118" value="1.获取设备p2p设备列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="859" y="3280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-119" value="2.返回设备p2p设备列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="3340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-120" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="3380" as="sourcePoint" />
+            <mxPoint x="1060" y="3380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-121" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="3434.44" as="sourcePoint" />
+            <mxPoint x="530" y="3434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-122" value="3.通过tutk uid,authkey,username,password调起tutk sdk 进行设备p2p通信" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3390" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-123" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="3434" as="sourcePoint" />
+            <mxPoint x="279" y="3434.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-124" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="3550" as="sourcePoint" />
+            <mxPoint x="790" y="3550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-125" value="4.设备通过通讯录拨打客户端，以Miot协议方式通知dms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3470" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-126" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="3550" as="sourcePoint" />
+            <mxPoint x="1060" y="3550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-127" value="5.dms 调用notification 服务,fcm推送拨打信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="3507" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-128" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="3550" as="sourcePoint" />
+            <mxPoint x="1060" y="3435" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="3550" />
+              <mxPoint x="1200" y="3435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-129" value="6.客户端主动调起p2p通信,app考虑如何实现多端挂断的问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="3480" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-130" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3800" width="1370" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-132" value="生产系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-134" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-136" value="p2p(TUTK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-138" value="dms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-140" value="notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0nwYbpklcDqV-RwNJl-142">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-142" value="application,app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-143" value="门禁机对接p2p可视对讲总流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="3810" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-144" value="1.设备出厂时预注册提供（sn、model、protocolType、deviceType、TUTK UID）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3950" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-145" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="4000" as="sourcePoint" />
+            <mxPoint x="860" y="4000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-146" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="859" y="4070" as="sourcePoint" />
+            <mxPoint x="244" y="4070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-147" value="2.返回deviceId、secretKey等设备信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="677" y="4030" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-148" value="3.参数写入设备中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="4092" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-149" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="4130" as="sourcePoint" />
+            <mxPoint x="440" y="4130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-150" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="4160" as="sourcePoint" />
+            <mxPoint x="859" y="4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-151" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870.5" y="4160" as="sourcePoint" />
+            <mxPoint x="439.5" y="4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-152" value="4.app添加设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="4122" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-153" value="5.bind device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="707" y="4122" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-154" value="6.设备初始化时,当p2pOn=1时创建设备的p2p账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="4180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-155" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="4230" as="sourcePoint" />
+            <mxPoint x="860" y="4230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-156" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="4460" as="sourcePoint" />
+            <mxPoint x="1075" y="4460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-157" value="10.app初始化p2p账号，同时请求notification 添加推送应用和绑定推送设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="4410" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-158" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="4530" as="sourcePoint" />
+            <mxPoint x="859" y="4530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-159" value="11.send p2p contact to dms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="4480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-160" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870.5" y="4530" as="sourcePoint" />
+            <mxPoint x="439.5" y="4530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-161" value="12.send p2p contact to device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="692" y="4480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-162" value="7.获取设备p2p设备列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="4220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-163" value="8.返回设备p2p设备列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1123.5" y="4260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-164" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="4380" as="sourcePoint" />
+            <mxPoint x="650" y="4380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-165" value="9.app,通过tutk uid,authkey,username,password调起tutk sdk 进行设备p2p通信" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="4330" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-166" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="4380" as="sourcePoint" />
+            <mxPoint x="440" y="4380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-167" value="13.设备通过通讯录拨打客户端，以Miot协议方式通知dms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="4570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-168" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.5" y="4650" as="sourcePoint" />
+            <mxPoint x="860" y="4650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-169" value="14.dms 推送到互联后端，互联调用notification 服务,通过fcm，apns，友盟推送拨打信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="4590" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-170" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="861" y="4650" as="sourcePoint" />
+            <mxPoint x="1080" y="4650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-171" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1075" y="4650" as="sourcePoint" />
+            <mxPoint x="1290" y="4650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-172" value="15.推送通知信息到app" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="4590" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-173" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="4650" as="sourcePoint" />
+            <mxPoint x="1290" y="4380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1430" y="4650" />
+              <mxPoint x="1430" y="4380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-174" value="16.客户端主动调起p2p通信,多端通信由app和设备的信道自行处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="4500" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-175" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="4250" as="sourcePoint" />
+            <mxPoint x="859" y="4250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DE0nwYbpklcDqV-RwNJl-176" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="4299.41" as="sourcePoint" />
+            <mxPoint x="1291" y="4299.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mUYZzZ569obHcR4F6jOv" name="第 2 页">
+    <mxGraphModel dx="1025" dy="-3010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4esQue5KA90kAvNj-tfD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3800" width="1370" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4esQue5KA90kAvNj-tfD-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-3" value="生产系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4esQue5KA90kAvNj-tfD-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-5" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4esQue5KA90kAvNj-tfD-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-7" value="p2p(TUTK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4esQue5KA90kAvNj-tfD-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-9" value="dms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4esQue5KA90kAvNj-tfD-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-11" value="notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4esQue5KA90kAvNj-tfD-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-13" value="application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-14" value="门禁机对接p2p可视对讲总流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="3810" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-15" value="1.设备出厂时预注册提供（sn、model、protocolType、deviceType、TUTK UID）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3950" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-16" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="4000" as="sourcePoint" />
+            <mxPoint x="860" y="4000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-17" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="859" y="4070" as="sourcePoint" />
+            <mxPoint x="244" y="4070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-18" value="2.返回deviceId、secretKey等设备信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="677" y="4030" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-19" value="3.参数写入设备中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="4092" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="4130" as="sourcePoint" />
+            <mxPoint x="440" y="4130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-21" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="4160" as="sourcePoint" />
+            <mxPoint x="859" y="4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-22" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870.5" y="4160" as="sourcePoint" />
+            <mxPoint x="439.5" y="4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-23" value="4.app添加设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="4122" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-24" value="5.bind device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="707" y="4122" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-25" value="6.设备初始化时,当p2pOn=1时创建设备的p2p账号" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="4180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-26" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="4230" as="sourcePoint" />
+            <mxPoint x="860" y="4230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="4460" as="sourcePoint" />
+            <mxPoint x="1075" y="4460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-28" value="10.app初始化p2p账号，同时请求notification 添加推送应用和绑定推送设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="4410" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-29" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="4530" as="sourcePoint" />
+            <mxPoint x="859" y="4530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-30" value="11.send p2p contact to dms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="4480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-31" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870.5" y="4530" as="sourcePoint" />
+            <mxPoint x="439.5" y="4530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-32" value="12.send p2p contact to device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="692" y="4480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-33" value="7.获取设备p2p设备列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="4220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-34" value="8.返回设备p2p设备列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1123.5" y="4260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-35" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="4380" as="sourcePoint" />
+            <mxPoint x="650" y="4380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-36" value="9.通过tutk uid,authkey,username,password调起tutk sdk 进行设备p2p通信" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="4330" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="4380" as="sourcePoint" />
+            <mxPoint x="440" y="4380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-38" value="13.设备通过通讯录拨打客户端，以Miot协议方式通知dms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="4570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-39" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.5" y="4650" as="sourcePoint" />
+            <mxPoint x="860" y="4650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-40" value="14.dms 推送到互联后端，互联调用notification 服务,通过fcm，apns，友盟推送拨打信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="4590" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="861" y="4650" as="sourcePoint" />
+            <mxPoint x="1080" y="4650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1075" y="4650" as="sourcePoint" />
+            <mxPoint x="1290" y="4650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-43" value="15.推送通知信息到app" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="4590" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="4650" as="sourcePoint" />
+            <mxPoint x="1290" y="4380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1430" y="4650" />
+              <mxPoint x="1430" y="4380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-45" value="16.客户端主动调起p2p通信,多端通信由app和设备的信道自行处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="4500" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-46" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1291" y="4250" as="sourcePoint" />
+            <mxPoint x="860" y="4250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4esQue5KA90kAvNj-tfD-47" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="4299.5" as="sourcePoint" />
+            <mxPoint x="1291" y="4299.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
