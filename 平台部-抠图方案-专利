@@ -360,7 +360,7 @@
             <mxPoint x="-13" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5XAgpsX94khhq3Y8-J4r-26" value="&amp;nbsp; 6.option handle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="5XAgpsX94khhq3Y8-J4r-26" value="&amp;nbsp; 6.unsync handle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="460" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5XAgpsX94khhq3Y8-J4r-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5XAgpsX94khhq3Y8-J4r-33" target="5XAgpsX94khhq3Y8-J4r-39" edge="1">
