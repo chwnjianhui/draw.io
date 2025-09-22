@@ -104,13 +104,12 @@
             <mxPoint x="2" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
+        <mxCell id="vaoFjiAmcUFDPWlm42Ys-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" target="vaoFjiAmcUFDPWlm42Ys-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="329.41" y="340" as="sourcePoint" />
             <mxPoint x="329.41" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="329.41" y="420" />
-              <mxPoint x="329.41" y="420" />
+              <mxPoint x="329" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -158,7 +157,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hpmVxYyJibiMV4yEy7AQ-0" value="" style="group" vertex="1" connectable="0" parent="vaoFjiAmcUFDPWlm42Ys-1">
-          <mxGeometry x="210" y="440" width="287" height="307" as="geometry" />
+          <mxGeometry x="210" y="435" width="287" height="307" as="geometry" />
         </mxCell>
         <mxCell id="TOTV-_XDnuBpGpdcwvFj-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hpmVxYyJibiMV4yEy7AQ-0">
           <mxGeometry x="42" y="32" width="245" height="275" as="geometry" />
