@@ -170,7 +170,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-38" value="Base64 data of s3 file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
+        <mxCell id="vaoFjiAmcUFDPWlm42Ys-38" value="Base64 data of photo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
           <mxGeometry x="572" y="469" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-40" value="&lt;span style=&quot;font-size: 11px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;captured&lt;br&gt;&lt;/span&gt;photo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
