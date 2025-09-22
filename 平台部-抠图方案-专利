@@ -366,7 +366,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5XAgpsX94khhq3Y8-J4r-25" value="5.triggered by&lt;div&gt;s3 bucket&lt;/div&gt;&lt;div&gt;changes&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5XAgpsX94khhq3Y8-J4r-24" vertex="1" connectable="0">
+        <mxCell id="5XAgpsX94khhq3Y8-J4r-25" value="5.triggered by&lt;div&gt;cloud storage&lt;/div&gt;&lt;div&gt;changes&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5XAgpsX94khhq3Y8-J4r-24" vertex="1" connectable="0">
           <mxGeometry x="-0.225" y="2" relative="1" as="geometry">
             <mxPoint x="-13" y="3" as="offset" />
           </mxGeometry>
