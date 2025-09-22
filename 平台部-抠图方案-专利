@@ -90,21 +90,8 @@
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-22" target="vaoFjiAmcUFDPWlm42Ys-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="640" y="440" />
-              <mxPoint x="640" y="440" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-19" value="&lt;div&gt;5.upload&lt;/div&gt;&lt;div&gt;encrypted&lt;/div&gt;&lt;div&gt;photo&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vaoFjiAmcUFDPWlm42Ys-18">
-          <mxGeometry x="0.275" y="3" relative="1" as="geometry">
-            <mxPoint x="12" y="8" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
-          <mxGeometry x="445" y="463" width="445" height="297" as="geometry" />
+          <mxGeometry x="481" y="463" width="245" height="297" as="geometry" />
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-15">
           <mxGeometry relative="1" as="geometry">
@@ -115,18 +102,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-24" value="6.response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vaoFjiAmcUFDPWlm42Ys-23">
+        <mxCell id="vaoFjiAmcUFDPWlm42Ys-24" value="5.response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vaoFjiAmcUFDPWlm42Ys-23">
           <mxGeometry x="0.1111" y="2" relative="1" as="geometry">
             <mxPoint x="2" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="340" as="sourcePoint" />
-            <mxPoint x="580" y="460" as="targetPoint" />
+            <mxPoint x="609" y="340" as="sourcePoint" />
+            <mxPoint x="609" y="460" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="440" />
-              <mxPoint x="580" y="440" />
+              <mxPoint x="609" y="440" />
+              <mxPoint x="609" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -136,7 +123,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-27" value="&amp;nbsp; 4.option handle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
-          <mxGeometry x="460" y="460" width="120" height="25" as="geometry" />
+          <mxGeometry x="481" y="463" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-34" target="vaoFjiAmcUFDPWlm42Ys-40">
           <mxGeometry relative="1" as="geometry" />
@@ -148,11 +135,11 @@
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="628.5" as="sourcePoint" />
-            <mxPoint x="530" y="598" as="targetPoint" />
+            <mxPoint x="565" y="628.5" as="sourcePoint" />
+            <mxPoint x="565" y="598" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="490" y="629" />
-              <mxPoint x="490" y="598" />
+              <mxPoint x="525" y="629" />
+              <mxPoint x="525" y="598" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -161,16 +148,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-34" target="vaoFjiAmcUFDPWlm42Ys-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-33" value="maximum retry, &lt;br&gt;encrypt using &lt;br&gt;original photos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vaoFjiAmcUFDPWlm42Ys-32">
-          <mxGeometry x="-0.2297" y="-4" relative="1" as="geometry">
-            <mxPoint x="12" y="32" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-34" value=".so&lt;br&gt;library" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
-          <mxGeometry x="530" y="588" width="80" height="50" as="geometry" />
+          <mxGeometry x="565" y="588" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-38" target="vaoFjiAmcUFDPWlm42Ys-34">
           <mxGeometry relative="1" as="geometry" />
@@ -186,19 +165,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-38" value="Base64 data of s3 file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
-          <mxGeometry x="530" y="489" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-40" target="vaoFjiAmcUFDPWlm42Ys-42">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="565" y="489" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-40" value="&lt;span style=&quot;font-size: 11px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;captured&lt;br&gt;&lt;/span&gt;photo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
-          <mxGeometry x="530" y="704" width="80" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-42" target="vaoFjiAmcUFDPWlm42Ys-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-42" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;encrypt&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;algorithm&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
-          <mxGeometry x="650" y="704" width="80" height="48" as="geometry" />
+          <mxGeometry x="565" y="704" width="80" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-9" target="vaoFjiAmcUFDPWlm42Ys-12">
           <mxGeometry relative="1" as="geometry">
@@ -209,13 +179,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-44" value="5.sync person and photo&lt;br&gt;to device" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vaoFjiAmcUFDPWlm42Ys-43">
+        <mxCell id="vaoFjiAmcUFDPWlm42Ys-44" value="6.sync person and photo&lt;br&gt;to device" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vaoFjiAmcUFDPWlm42Ys-43">
           <mxGeometry x="0.1323" relative="1" as="geometry">
             <mxPoint x="22" y="-24" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-51" value="&lt;div style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;encrypted&lt;/div&gt;&lt;div style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;photo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
-          <mxGeometry x="770" y="704" width="80" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-12" target="vaoFjiAmcUFDPWlm42Ys-13">
           <mxGeometry relative="1" as="geometry">
@@ -393,7 +360,7 @@
             <mxPoint x="-13" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5XAgpsX94khhq3Y8-J4r-26" value="&amp;nbsp; 6.lambda handle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="5XAgpsX94khhq3Y8-J4r-26" value="&amp;nbsp; 6.option handle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="460" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="5XAgpsX94khhq3Y8-J4r-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5XAgpsX94khhq3Y8-J4r-33" target="5XAgpsX94khhq3Y8-J4r-39" edge="1">
