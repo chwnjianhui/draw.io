@@ -122,7 +122,7 @@
             <mxPoint x="-13" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vaoFjiAmcUFDPWlm42Ys-27" value="&amp;nbsp; 4.option handle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
+        <mxCell id="vaoFjiAmcUFDPWlm42Ys-27" value="&amp;nbsp; 4.sync handle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vaoFjiAmcUFDPWlm42Ys-1">
           <mxGeometry x="481" y="463" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="vaoFjiAmcUFDPWlm42Ys-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vaoFjiAmcUFDPWlm42Ys-1" source="vaoFjiAmcUFDPWlm42Ys-34" target="vaoFjiAmcUFDPWlm42Ys-40">
