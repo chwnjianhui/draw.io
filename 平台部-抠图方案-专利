@@ -231,7 +231,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--3" value="1.create&amp;nbsp;&lt;br&gt;credentials&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--2">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--3" value="1.创建凭证&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--2">
           <mxGeometry x="-0.05" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -245,7 +245,7 @@
             <mxPoint x="160" y="304.03999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--6" value="7.response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--5">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--6" value="7.返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--5">
           <mxGeometry x="-0.0167" y="1" relative="1" as="geometry">
             <mxPoint y="6" as="offset" />
           </mxGeometry>
@@ -280,18 +280,17 @@
         <mxCell id="FpKDgV3lPXOu4FJMf01--13" value="cloud&lt;br&gt;storage&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--1">
           <mxGeometry x="560" y="240" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=32.5;entryPerimeter=0;" edge="1" parent="FpKDgV3lPXOu4FJMf01--1">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FpKDgV3lPXOu4FJMf01--1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="271" as="sourcePoint" />
-            <mxPoint x="560" y="273.5" as="targetPoint" />
+            <mxPoint x="560" y="270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="370" y="272" />
-              <mxPoint x="466" y="272" />
-              <mxPoint x="466" y="274" />
+              <mxPoint x="370" y="270" />
+              <mxPoint x="560" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--15" value="5.upload&amp;nbsp;&lt;div&gt;photo to storage&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--14">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--15" value="5.上传图片到云存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--14">
           <mxGeometry x="-0.0286" relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
@@ -305,7 +304,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--17" value="6.response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--16">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--17" value="6.返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--16">
           <mxGeometry x="0.1111" y="2" relative="1" as="geometry">
             <mxPoint x="2" y="7" as="offset" />
           </mxGeometry>
