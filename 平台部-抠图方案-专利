@@ -261,7 +261,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--9" value="public url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--8">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--9" value="下发链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--8">
           <mxGeometry x="0.04" y="2" relative="1" as="geometry">
             <mxPoint x="2" y="-10" as="offset" />
           </mxGeometry>
@@ -277,7 +277,7 @@
             <mxPoint x="560" y="273" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--13" value="cloud&lt;br&gt;storage&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--1">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--13" value="云存储&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--1">
           <mxGeometry x="560" y="240" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="FpKDgV3lPXOu4FJMf01--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FpKDgV3lPXOu4FJMf01--1">
@@ -318,7 +318,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--19" value="2.sync option" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--18">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--19" value="2.同步处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--18">
           <mxGeometry x="-0.225" y="2" relative="1" as="geometry">
             <mxPoint x="-42" y="3" as="offset" />
           </mxGeometry>
@@ -333,7 +333,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--21" value="8.sync person and photo&lt;br&gt;to device" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--20">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--21" value="8.同步人员数据和凭证到设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--20">
           <mxGeometry x="0.1323" relative="1" as="geometry">
             <mxPoint x="22" y="-24" as="offset" />
           </mxGeometry>
@@ -357,7 +357,7 @@
             <mxPoint x="660" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--26" value="&lt;div&gt;9.get encrpted photo&lt;br&gt;&amp;nbsp;by public url&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--25">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--26" value="&lt;div&gt;9.根据下发的链接拉取图片&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--25">
           <mxGeometry x="0.0571" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -374,13 +374,13 @@
         <mxCell id="FpKDgV3lPXOu4FJMf01--30" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--27">
           <mxGeometry x="6.5" width="245" height="287" as="geometry" />
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--31" value="&amp;nbsp; 3.middleware" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--27">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--31" value="&amp;nbsp; 3.中间件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--27">
           <mxGeometry width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="FpKDgV3lPXOu4FJMf01--32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FpKDgV3lPXOu4FJMf01--27" source="FpKDgV3lPXOu4FJMf01--36" target="FpKDgV3lPXOu4FJMf01--41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--33" value="success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--32">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--33" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--32">
           <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -395,7 +395,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--35" value="fail&amp;nbsp; retry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--34">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--35" value="失败重试" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--34">
           <mxGeometry x="0.0045" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -411,15 +411,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--39" value="&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;capture&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--37">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--39" value="&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;提取&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--37">
           <mxGeometry x="-0.0909" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--40" value="Base64 data of photo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--27">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--40" value="Base64图片转成图片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--27">
           <mxGeometry x="84" y="26" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--41" value="&lt;span style=&quot;font-size: 11px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;captured&lt;br&gt;&lt;/span&gt;photo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--27">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--41" value="&lt;span style=&quot;font-size: 11px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;处理后的图片&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FpKDgV3lPXOu4FJMf01--27">
           <mxGeometry x="84" y="224" width="80" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FpKDgV3lPXOu4FJMf01--42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FpKDgV3lPXOu4FJMf01--1" source="FpKDgV3lPXOu4FJMf01--30" target="FpKDgV3lPXOu4FJMf01--7">
@@ -430,7 +430,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpKDgV3lPXOu4FJMf01--43" value="4.handle result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--42">
+        <mxCell id="FpKDgV3lPXOu4FJMf01--43" value="4.返回处理结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FpKDgV3lPXOu4FJMf01--42">
           <mxGeometry x="0.115" y="-6" relative="1" as="geometry">
             <mxPoint x="35" as="offset" />
           </mxGeometry>
