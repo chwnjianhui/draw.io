@@ -701,7 +701,7 @@
             <mxPoint x="160" y="304.03999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-6" value="4.response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-5">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-6" value="4.返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-5">
           <mxGeometry x="-0.0167" y="1" relative="1" as="geometry">
             <mxPoint y="6" as="offset" />
           </mxGeometry>
@@ -715,12 +715,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-8" value="&amp;nbsp; &amp;nbsp;9.update person and phto&lt;br&gt;to device" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-7">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-8" value="&amp;nbsp; &amp;nbsp;9.更新人员和照片数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-7">
           <mxGeometry x="0.0179" y="-1" relative="1" as="geometry">
             <mxPoint x="38" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-9" value="CMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-9" value="凭证管理&lt;br&gt;服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
           <mxGeometry x="290" y="250" width="80" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9Mt7hHwzl07dFIzedl-U-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="9Mt7hHwzl07dFIzedl-U-1" source="9Mt7hHwzl07dFIzedl-U-12" target="9Mt7hHwzl07dFIzedl-U-13">
@@ -731,12 +731,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-11" value="public url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-10">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-11" value="下发链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-10">
           <mxGeometry x="0.04" y="2" relative="1" as="geometry">
             <mxPoint x="2" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-12" value="DMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-12" value="设备管理&lt;br&gt;服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
           <mxGeometry x="570" y="80" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9Mt7hHwzl07dFIzedl-U-13" value="Device&lt;br&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
@@ -747,7 +747,7 @@
             <mxPoint x="560" y="273" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-15" value="cloud&lt;br&gt;storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-15" value="云存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
           <mxGeometry x="560" y="240" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9Mt7hHwzl07dFIzedl-U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=32.5;entryPerimeter=0;" edge="1" parent="9Mt7hHwzl07dFIzedl-U-1">
@@ -755,13 +755,12 @@
             <mxPoint x="370" y="271" as="sourcePoint" />
             <mxPoint x="560" y="273.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="370" y="272" />
-              <mxPoint x="466" y="272" />
+              <mxPoint x="370" y="274" />
               <mxPoint x="466" y="274" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-17" value="2.upload&amp;nbsp;&lt;div&gt;photo to storage&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-16">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-17" value="2.上传图片到云存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-16">
           <mxGeometry x="-0.0286" relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
@@ -774,7 +773,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-19" value="&lt;div&gt;7.upload&lt;/div&gt;&lt;div&gt;encrypted&lt;/div&gt;&lt;div&gt;photo&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-18">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-19" value="&lt;div&gt;7.上传加密&lt;br&gt;图片&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-18">
           <mxGeometry x="0.275" y="3" relative="1" as="geometry">
             <mxPoint x="12" y="8" as="offset" />
           </mxGeometry>
@@ -787,7 +786,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-21" value="8.update &lt;br&gt;object key&lt;br&gt;and &lt;br&gt;capture result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-20">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-21" value="8.更新处理结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-20">
           <mxGeometry x="0.2509" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -795,12 +794,12 @@
         <mxCell id="9Mt7hHwzl07dFIzedl-U-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="9Mt7hHwzl07dFIzedl-U-1" source="9Mt7hHwzl07dFIzedl-U-24" target="9Mt7hHwzl07dFIzedl-U-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-23" value="6.1&lt;div&gt;&amp;nbsp; get detect photo&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-22">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-23" value="6.1&lt;div&gt;&amp;nbsp; 获取抠图图片&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-22">
           <mxGeometry x="-0.1116" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-24" value="&lt;div style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;encrypted&lt;/div&gt;&lt;div style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;photo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-24" value="&lt;div style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;加密图片&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
           <mxGeometry x="550" y="526" width="150" height="74" as="geometry" />
         </mxCell>
         <mxCell id="9Mt7hHwzl07dFIzedl-U-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="9Mt7hHwzl07dFIzedl-U-1" source="9Mt7hHwzl07dFIzedl-U-15">
@@ -812,7 +811,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-26" value="response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-25">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-26" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-25">
           <mxGeometry x="0.1111" y="2" relative="1" as="geometry">
             <mxPoint x="2" y="7" as="offset" />
           </mxGeometry>
@@ -824,12 +823,12 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-28" value="5.triggered by&lt;div&gt;cloud storage&lt;/div&gt;&lt;div&gt;changes&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-27">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-28" value="5.云存数据&lt;br&gt;变动触发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-27">
           <mxGeometry x="-0.225" y="2" relative="1" as="geometry">
             <mxPoint x="-13" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-29" value="&amp;nbsp; 6.unsync handle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-29" value="&amp;nbsp; 6.异步操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
           <mxGeometry x="560" y="526" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="9Mt7hHwzl07dFIzedl-U-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="9Mt7hHwzl07dFIzedl-U-1" source="9Mt7hHwzl07dFIzedl-U-9" target="9Mt7hHwzl07dFIzedl-U-12">
@@ -841,7 +840,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-31" value="3.sync person and photo&lt;br&gt;to device" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-30">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-31" value="3.同步人员信息和照片到设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-30">
           <mxGeometry x="0.1323" relative="1" as="geometry">
             <mxPoint x="22" y="-24" as="offset" />
           </mxGeometry>
@@ -854,12 +853,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-34" value="11.capture&lt;br&gt;result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-32">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-34" value="11.返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-32">
           <mxGeometry x="0.2348" y="-3" relative="1" as="geometry">
             <mxPoint x="-3" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-35" value="DPS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-35" value="数据推送&lt;br&gt;服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-1">
           <mxGeometry x="80" y="526" width="80" height="65" as="geometry" />
         </mxCell>
         <mxCell id="9Mt7hHwzl07dFIzedl-U-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.113;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9Mt7hHwzl07dFIzedl-U-1" source="9Mt7hHwzl07dFIzedl-U-9" target="9Mt7hHwzl07dFIzedl-U-35">
@@ -868,7 +867,7 @@
             <mxPoint x="260" y="413" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-37" value="10.capture&lt;br&gt;result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-36">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-37" value="10.返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-36">
           <mxGeometry x="-0.1304" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -892,7 +891,7 @@
             <mxPoint x="350" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-42" value="&lt;div&gt;12.get encrpted photo&lt;br&gt;&amp;nbsp;by public url&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-41">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-42" value="&lt;div&gt;12.&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;根据下发的链接拉取图片&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9Mt7hHwzl07dFIzedl-U-41">
           <mxGeometry x="0.0571" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -906,7 +905,7 @@
         <mxCell id="9Mt7hHwzl07dFIzedl-U-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-43">
           <mxGeometry x="10" y="9.129999999999995" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9Mt7hHwzl07dFIzedl-U-46" value="face detect&lt;br&gt;service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-43">
+        <mxCell id="9Mt7hHwzl07dFIzedl-U-46" value="人脸探测服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9Mt7hHwzl07dFIzedl-U-43">
           <mxGeometry y="22.25" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
